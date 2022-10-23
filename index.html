@@ -45,7 +45,9 @@
     <!-- Lightbox2 -->
     <link rel="stylesheet" href="css/lightbox.min.css">
     <!-- Carousel -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
 </head>
 <body>
 
@@ -249,18 +251,17 @@
                             <h2>Algebra</h2>
                         </div>
                     </div>
-
-                    <div class="text-center">
-                        <a href="images/algebra/01.jpg" data-lightbox="algebra" data-title="Uvod u moderni razvoj Web aplikacija"><img style="padding: 5px 5px 5px 5px;" src="images/algebra/01_t.jpg" alt="Uvod u moderni razvoj Web aplikacija"></a>
-                        <a href="images/algebra/02.jpg" data-lightbox="algebra" data-title="C# i .NET Framework_osnovno koristenje"><img style="padding: 5px 5px 5px 5px;" src="images/algebra/02_t.jpg" alt="C# i .NET Framework_osnovno koristenje"></a>
-                        <a href="images/algebra/03.jpg" data-lightbox="algebra" data-title="Osnove baza podataka"><img style="padding: 5px 5px 5px 5px;" src="images/algebra/03_t.jpg" alt="Osnove baza podataka"></a>
-                        <a href="images/algebra/04.jpg" data-lightbox="algebra" data-title="C# i .NET Framework_napredno koristenje"><img style="padding: 5px 5px 5px 5px;" src="images/algebra/04_t.jpg" alt="C# i .NET Framework_napredno koristenje"></a>
-                        <a href="images/algebra/05.jpg" data-lightbox="algebra" data-title="LINQ"><img style="padding: 5px 5px 5px 5px;" src="images/algebra/05_t.jpg" alt="LINQ"></a>
-                        <a href="images/algebra/06.jpg" data-lightbox="algebra" data-title="ASP.NET Core MVC i Visual Studio"><img style="padding: 5px 5px 5px 5px;" src="images/algebra/06_t.jpg" alt="ASP.NET Core MVC i Visual Studio"></a>
-                        <a href="images/algebra/07.jpg" data-lightbox="algebra" data-title="Unit Testing"><img style="padding: 5px 5px 5px 5px;" src="images/algebra/07_t.jpg" alt="Unit Testing"></a>
-                        <a href="images/algebra/08.jpg" data-lightbox="algebra" data-title="ASP.NET Core MVC u praksi_Entity Framework"><img style="padding: 5px 5px 5px 5px;" src="images/algebra/08_t.jpg" alt="ASP.NET Core MVC u praksi_Entity Framework"></a>
-                        <a href="images/algebra/09.jpg" data-lightbox="algebra" data-title="ASP.NET Core MVC u praksi_Izrada web trgovine"><img style="padding: 5px 5px 5px 5px;" src="images/algebra/09_t.jpg" alt="ASP.NET Core MVC u praksi_Izrada web trgovine"></a>
-                        <a href="images/algebra/10.jpg" data-lightbox="algebra" data-title="Web API"><img style="padding: 5px 5px 5px 5px;" src="images/algebra/10_t.jpg" alt="Web API"></a>
+                    <div class="owl-carousel owl-theme">
+                        <a href="images/algebra/01.jpg" data-lightbox="algebra" data-title="Uvod u moderni razvoj Web aplikacija"><img src="images/algebra/01_t.jpg" alt="Uvod u moderni razvoj Web aplikacija"></a>
+                        <a href="images/algebra/02.jpg" data-lightbox="algebra" data-title="C# i .NET Framework_osnovno koristenje"><img src="images/algebra/02_t.jpg" alt="C# i .NET Framework_osnovno koristenje"></a>
+                        <a href="images/algebra/03.jpg" data-lightbox="algebra" data-title="Osnove baza podataka"><img src="images/algebra/03_t.jpg" alt="Osnove baza podataka"></a>
+                        <a href="images/algebra/04.jpg" data-lightbox="algebra" data-title="C# i .NET Framework_napredno koristenje"><img src="images/algebra/04_t.jpg" alt="C# i .NET Framework_napredno koristenje"></a>
+                        <a href="images/algebra/05.jpg" data-lightbox="algebra" data-title="LINQ"><img src="images/algebra/05_t.jpg" alt="LINQ"></a>
+                        <a href="images/algebra/06.jpg" data-lightbox="algebra" data-title="ASP.NET Core MVC i Visual Studio"><img src="images/algebra/06_t.jpg" alt="ASP.NET Core MVC i Visual Studio"></a>
+                        <a href="images/algebra/07.jpg" data-lightbox="algebra" data-title="Unit Testing"><img src="images/algebra/07_t.jpg" alt="Unit Testing"></a>
+                        <a href="images/algebra/08.jpg" data-lightbox="algebra" data-title="ASP.NET Core MVC u praksi_Entity Framework"><img src="images/algebra/08_t.jpg" alt="ASP.NET Core MVC u praksi_Entity Framework"></a>
+                        <a href="images/algebra/09.jpg" data-lightbox="algebra" data-title="ASP.NET Core MVC u praksi_Izrada web trgovine"><img src="images/algebra/09_t.jpg" alt="ASP.NET Core MVC u praksi_Izrada web trgovine"></a>
+                        <a href="images/algebra/10.jpg" data-lightbox="algebra" data-title="Web API"><img src="images/algebra/10_t.jpg" alt="Web API"></a>
                     </div>
 
                     <!--<div class="row">
@@ -801,12 +802,30 @@
     <!-- Main -->
     <script src="js/main.js"></script>
 
+    <!-- jQuery -->
+    <!--<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>-->
     <!-- LightBox2 -->
     <script src="js/lightbox.js"></script>
     <!-- Carousel -->
     <script src="js/owl.carousel.min.js"></script>
 
+    <script>
+        $('.owl-carousel').owlCarousel({
+            margin: 10,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
 
 </body>
 </html>
-
