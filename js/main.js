@@ -110,7 +110,7 @@
 			lineCap: 'butt',
 			barColor: '#FF9000',
 			trackColor:	"#f5f5f5",
-			size: 160,
+			size: 200,
 			animate: 1000
 		});
 	};
