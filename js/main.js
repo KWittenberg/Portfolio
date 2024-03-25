@@ -1,4 +1,4 @@
-; (function () {
+﻿; (function () {
 
 
     const courses = [
@@ -90,6 +90,115 @@
 
     ];
 
+    const certificates = [
+        {
+            href: "https://www.testdome.com/certificates/6bb8a052b43e4792865ec9b98daf49fe",
+            name: "Krešimir Wittenberg",
+            testName: "Azure and DevOps",
+            logo: "TestDome Certificate",
+            stampClass: "gold"
+        },
+        {
+            href: "https://www.testdome.com/certificates/bce69ecd332b4200afad896d6f4e988c",
+            name: "Krešimir Wittenberg",
+            testName: "ASP.NET (Core) MVC, HTML/CSS, JavaScript, C#, and SQL",
+            logo: "TestDome Certificate",
+            stampClass: "gold"
+        },
+        {
+            href: "https://www.testdome.com/certificates/4c3f4dc0aff64f5daef482d0b35894d4",
+            name: "Krešimir Wittenberg",
+            testName: "C# and .NET",
+            logo: "TestDome Certificate",
+            stampClass: "gold"
+        },
+        {
+            href: "https://www.testdome.com/certificates/760fd22053244dcf8682cb082ebfea4a",
+            name: "Krešimir Wittenberg",
+            testName: "C#, MS SQL Server, and SQL",
+            logo: "TestDome Certificate",
+            stampClass: "gold"
+        },
+        {
+            href: "https://www.testdome.com/certificates/08bf6cc5ccb646409dd6d3d48a57c0f8",
+            name: "Krešimir Wittenberg",
+            testName: "C#",
+            logo: "TestDome Certificate",
+            stampClass: "gold"
+        },
+        {
+            href: "https://www.testdome.com/certificates/b1ee11ef88944f029b6279df4b73e8ed",
+            name: "Krešimir Wittenberg",
+            testName: "REST API",
+            logo: "TestDome Certificate",
+            stampClass: "gold"
+        },
+        {
+            href: "https://www.testdome.com/certificates/74415868c0d54922b4dd786a73e1d7cb",
+            name: "Krešimir Wittenberg",
+            testName: "HTML/CSS",
+            logo: "TestDome Certificate",
+            stampClass: "gold"
+        },
+        {
+            href: "https://www.testdome.com/certificates/2d4a16493915489c9a5613293a5c463b",
+            name: "Krešimir Wittenberg",
+            testName: "JavaScript",
+            logo: "TestDome Certificate",
+            stampClass: "gold"
+        },
+        {
+            href: "https://www.testdome.com/certificates/09fcf3aad1634a7f9ba02e0bf84fdd5b",
+            name: "Krešimir Wittenberg",
+            testName: "SQL",
+            logo: "TestDome Certificate",
+            stampClass: "gold"
+        },
+        {
+            href: "https://www.testdome.com/certificates/2855c20322924623bcde707e7ecfbeeb",
+            name: "Krešimir Wittenberg",
+            testName: "MongoDB",
+            logo: "TestDome Certificate",
+            stampClass: "gold"
+        },
+        {
+            href: "https://www.testdome.com/certificates/992d811abfc44a8b8a061a5140603520",
+            name: "Krešimir Wittenberg",
+            testName: "Git",
+            logo: "TestDome Certificate",
+            stampClass: "gold"
+        },
+        {
+            href: "https://www.testdome.com/certificates/b6423c12cf954909a9f067057d0d793a",
+            name: "Krešimir Wittenberg",
+            testName: "Azure",
+            logo: "TestDome Certificate",
+            stampClass: "gold"
+        },
+        {
+            href: "https://www.testdome.com/certificates/824471e84c4449668dfc07b2f66b131b",
+            name: "Krešimir Wittenberg",
+            testName: "WordPress",
+            logo: "TestDome Certificate",
+            stampClass: "gold"
+        },
+        {
+            href: "https://www.testdome.com/certificates/73395701398a4741b807819c46860044",
+            name: "Krešimir Wittenberg",
+            testName: "C# and .NET",
+            logo: "TestDome Certificate",
+            stampClass: "silver"
+        },
+        {
+            href: "https://www.testdome.com/certificates/3ffc240f7f654a859375ef1b3b2e6cff",
+            name: "Krešimir Wittenberg",
+            testName: "HTML/CSS",
+            logo: "TestDome Certificate",
+            stampClass: "silver"
+        }
+    ];
+
+
     function populateCourses() {
         const courseContainer = document.getElementById("course-container");
 
@@ -113,8 +222,63 @@
     }
 
 
+    //function populateTestDome() {
+    //    var certificateList = document.getElementById("certificateList");
 
+    //    // Kreiranje elemenata i dodavanje certifikata u HTML
+    //    certificates.forEach(function (certificate, index) {
+    //        var certificateLink = document.createElement("a");
+    //        certificateLink.setAttribute("href", certificate.href);
+    //        certificateLink.classList.add("carousel-item");
+    //        if (index === 0) {
+    //            certificateLink.classList.add("active");
+    //        }
 
+    //        var certificateItem = document.createElement("div");
+    //        certificateItem.classList.add("carousel-item-content");
+
+    //        var certificateName = document.createElement("h5");
+    //        certificateName.classList.add("testdome-certificate-name");
+    //        certificateName.textContent = certificate.name;
+
+    //        var certificateTestName = document.createElement("p");
+    //        certificateTestName.classList.add("testdome-certificate-test-name");
+    //        certificateTestName.textContent = certificate.testName;
+
+    //        var certificateCardLogo = document.createElement("p");
+    //        certificateCardLogo.classList.add("testdome-certificate-card-logo");
+    //        certificateCardLogo.textContent = certificate.logo;
+
+    //        certificateItem.appendChild(certificateName);
+    //        certificateItem.appendChild(certificateTestName);
+    //        certificateItem.appendChild(certificateCardLogo);
+
+    //        certificateLink.appendChild(certificateItem);
+    //        certificateList.appendChild(certificateLink);
+    //    });
+    //}
+
+    function populateTestDome() {
+        var certificateList = document.getElementById("certificateList");
+
+        certificates.forEach(function (certificate) {
+            var certificateLink = document.createElement("a");
+            certificateLink.setAttribute("href", certificate.href);
+            certificateLink.setAttribute("target", "_blank");
+
+            var certificateTestName = document.createElement("span");
+            certificateTestName.classList.add("testdome-certificate-test-name");
+            certificateTestName.textContent = certificate.testName;
+
+            var space = document.createElement("span");
+            space.textContent = " | ";
+            space.style.color = "black";
+            certificateLink.appendChild(certificateTestName);
+            certificateLink.appendChild(space);
+
+            certificateList.appendChild(certificateLink);
+        });
+    }
 
 
 
@@ -256,7 +420,8 @@
 
     // START
     $(function () {
-        populateCourses(); // Call the function to populate the course data
+        populateCourses();
+        populateTestDome();
         contentWayPoint();
         goToTop();
         loaderPage();
