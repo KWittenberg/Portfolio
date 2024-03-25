@@ -1496,14 +1496,14 @@ input[type="text"] {
   background: url(../images/loader.gif) center no-repeat #fff;
 }
 
-.js .animate-box {
+/*.js .animate-box {
   opacity: 0;
   background-image: url("images/bg.svg");
 }
 
-.backgroundi {
+.backgroundi {*/
   /* width: 500px; /* Postavite širinu i visinu div-a na veličinu slike 
   height: 300px; */
-  background-image: url("images/bg.svg"); /* Postavite pozadinsku sliku */
-  opacity: 1; /* Postavite prozirnost na 50% */
-}
+  /*background-image: url("images/bg.svg");*/ /* Postavite pozadinsku sliku */
+  /*opacity: 1;*/ /* Postavite prozirnost na 50% */
+/*}*/
