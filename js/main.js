@@ -104,9 +104,7 @@ const courses = [
         imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-3f0fe1d1-2969-4ef7-b896-69e49ad38cda.jpg?v=1675820316000",
         image: "images/udemy/ASP.NET Core 7 MVC - Cross-Platform Development.jpg"
     }
-
 ];
-
 
 const algebra = [
     { href: "images/algebra/01.jpg", title: "Uvod u moderni razvoj Web aplikacija", alt: "Uvod u moderni razvoj Web aplikacija" },
@@ -120,8 +118,6 @@ const algebra = [
     { href: "images/algebra/09.jpg", title: "ASP.NET Core MVC u praksi_Izrada web trgovine", alt: "ASP.NET Core MVC u praksi_Izrada web trgovine" },
     { href: "images/algebra/10.jpg", title: "Web API", alt: "Web API" }
 ];
-
-
 
 const certificates = [
     {
