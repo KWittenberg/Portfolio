@@ -227,10 +227,154 @@ const certificates = [
     }
 ];
 
+const boltaShop = [
+    { href: "images/BoltaShop/01-home-product.jpg", title: "BoltaShop - Home Page and Product page - Client side", alt: "BoltaShop - Home Page and Product page - Client side" },
+    { href: "images/BoltaShop/02-home-product.jpg", title: "BoltaShop - Home Page and Shop page - Client side", alt: "BoltaShop - Home Page and Shop page - Client side" },
+    { href: "images/BoltaShop/02-product.jpg", title: "BoltaShop - Product page - Client side", alt: "BoltaShop - Product page - Client side" },
+    { href: "images/BoltaShop/02-blog.png", title: "BoltaShop - Blog Page - Client and Admin side", alt: "BoltaShop - Blog Page - Client and Admin side" },
+    { href: "images/BoltaShop/03-hero.jpg", title: "BoltaShop - Hero Page - Client and Admin side", alt: "BoltaShop - Hero Page - Client and Admin side" },
+    { href: "images/BoltaShop/04-product.jpg", title: "BoltaShop - Product Page - Admin side", alt: "BoltaShop - Product Page - Admin side" },
+    { href: "images/BoltaShop/registration.jpg", title: "BoltaShop - Registration", alt: "BoltaShop - Registration" },
+    { href: "images/BoltaShop/login.jpg", title: "BoltaShop - Login", alt: "BoltaShop - Login" }
+];
+
+const boltaShopAdmin = [
+    { href: "images/BoltaShop/admin-dashboard.jpg", title: "Dashboard", alt: "Dashboard" },
+    { href: "images/BoltaShop/admin-filemanager.jpg", title: "File Manager", alt: "File Manager" },
+    { href: "images/BoltaShop/admin-product.jpg", title: "Product", alt: "Product" },
+    { href: "images/BoltaShop/admin-quickemail.jpg", title: "Quick Email", alt: "Quick Email" },
+    { href: "images/BoltaShop/admin-blog.jpg", title: "Blog", alt: "Blog" },
+    { href: "images/BoltaShop/admin-blog02.jpg", title: "Blog Add-Edit", alt: "Blog Add-Edit" },
+    { href: "images/BoltaShop/admin-todo.jpg", title: "ToDo", alt: "ToDo" },
+    { href: "images/BoltaShop/admin-category01.jpg", title: "Category", alt: "Category" },
+    { href: "images/BoltaShop/admin-category02.jpg", title: "Category - Add & Edit", alt: "Category - Add & Edit" },
+    { href: "images/BoltaShop/admin-category03.jpg", title: "Category - Delete", alt: "Category - Delete" }
+];
+
+const boltaBooks = [
+    {
+        href: "1996GrobljaPozeskeDoline.html",
+        imageUrl: "images/Bolta/2013Tekic.jpg",
+        title: "Tekić",
+        alt: "Tekić",
+        year: "2013",
+        author: "Tomislav Wittenberg",
+        description: "U središnjem dijelu Požeštine, kojeg još Rimljani prozvaše 'Zlatnom dolinom – Valis aurea', sjeverno zapadno od sela Jakšića, smjestilo se selo Tekić."
+    },
+    {
+        href: "1996GrobljaPozeskeDoline.html",
+        imageUrl: "images/Bolta/2012Smotra.jpg",
+        title: "Smotra",
+        alt: "Smotra",
+        year: "2012",
+        author: "Tomislav Wittenberg",
+        description: "Velika mi je čast i zadovoljstvo što mi je povjereno uređivanje ovog broja koji je posvećen uglavnom Požetini. Odmah po protjerivanju Turaka osim vojničkih posada doseljavaju i Nijemci i Austrijanci."
+    },
+    {
+        href: "1996GrobljaPozeskeDoline.html",
+        imageUrl: "images/Bolta/2011Brestovac.jpg",
+        title: "Brestovac",
+        alt: "Brestovac",
+        year: "2011",
+        author: "Tomislav Wittenberg",
+        description: "Za prostor omeđen bilom planina Požeške Gore - Psunja i Papuka zapadno od Požege, najlogičniji mi je naziv Zapadna Vrata Požeštine. Na cestovnom ulazu i izlazu tog prostora dominira mjesto Brestovac pa otud i naslov ‘BRESTOVAC - ZAPADNA VRATA POŽEŠTINE’."
+    },
+    {
+        href: "1996GrobljaPozeskeDoline.html",
+        imageUrl: "images/Bolta/2009AlmanahGimnazije.jpg",
+        title: "Almanah Gimnazije",
+        alt: "Almanah Gimnazije",
+        year: "2009",
+        author: "Tomislav Wittenberg",
+        description: "Sam grad Požega imao je te 1948. godine 8.544 stanovnika pa je i priliv od preko jedne tisuće gimnazijalaca imao itekako odraza na sveukupan život u gradu. Promet uglavnom željeznicom ili konjskim zapregama."
+    },
+    {
+        href: "1996GrobljaPozeskeDoline.html",
+        imageUrl: "images/Bolta/2009100GodinaDVDBuk.jpg",
+        title: "100 Godina DVD Buk",
+        alt: "100 Godina DVD Buk",
+        year: "2009",
+        author: "Tomislav Wittenberg",
+        description: "Prvo osnovano vatrogasno društvo u Požeštini koje nije imalo sjedište u općinskom središtu je DVD Buk, osnovano daleke 1909. godine za naselja: Buk, Svilna, Resnik, Mihaljevci i Tulnik."
+    },
+    {
+        href: "1996GrobljaPozeskeDoline.html",
+        imageUrl: "images/Bolta/2008Vetovo.jpg",
+        title: "Vetovo",
+        alt: "Vetovo",
+        year: "2008",
+        author: "Tomislav Wittenberg",
+        description: "Stiješnjena između tri centra: Kutjeva, Kaptola i Jakšića, župa ili bolje rečeno područje župe Vetovo, već stoljećima odolijeva kao svojevrstan ‘kuglager’ u nastalom trenju, kako od silnica ovih centara, tako od pritiska sučeljavanja Papuka i Krndije te južne ravne plohe - plodne ravnice."
+    },
+    {
+        href: "1996GrobljaPozeskeDoline.html",
+        imageUrl: "images/Bolta/2007OsamGeneracijaThallera.jpg",
+        title: "Osam Generacija Thallera",
+        alt: "Osam Generacija Thallera",
+        year: "2007",
+        author: "Tomislav Wittenberg",
+        description: "Monografija OSAM GENERACIJA THALLERA ne samo izuzetna po formi i sadržaju, nego i jedinstvena po obradi."
+    },
+    {
+        href: "1996GrobljaPozeskeDoline.html",
+        imageUrl: "images/Bolta/2004PutopisneImpresije.jpg",
+        title: "Putopisne Impresije",
+        alt: "Putopisne Impresije",
+        year: "2004",
+        author: "Branko Živković",
+        description: "Putopisne impresije Branka Živković su plod zajedničkog putovanja s Matkom Peić u Španjolsku i Pariz."
+    },
+    {
+        href: "1996GrobljaPozeskeDoline.html",
+        imageUrl: "images/Bolta/2004Pjesme.jpg",
+        title: "Pjesme",
+        alt: "Pjesme",
+        year: "2004",
+        author: "Vladimir Hip",
+        description: "Mladi pjesnik Vladimir Hip realna je osoba koja razmišlja i osjeća bilo i ritam svijeta u kojem živi."
+    },
+    {
+        href: "1996GrobljaPozeskeDoline.html",
+        imageUrl: "images/Bolta/2002SesvetackiKrajUSrcuPoljadije.jpg",
+        title: "Sesvetački Kraj U Srcu Poljadije",
+        alt: "Sesvetački Kraj U Srcu Poljadije",
+        year: "2002",
+        author: "Tomislav Wittenberg",
+        description: "Veliki je broj pjesnika i putopisaca opisalo ili opjevalo Požešku dolinu sve od Rimljana do današnjih dana."
+    },
+    {
+        href: "1996GrobljaPozeskeDoline.html",
+        imageUrl: "images/Bolta/1998Puvarija.jpg",
+        title: "Puvarija",
+        alt: "Puvarija",
+        year: "1998",
+        author: "Tomislav Wittenberg",
+        description: "Prva cjelovita obrada sjeverno-zapadnog dijela Dilj-gore i naselja na diljskim padinama, od srednjeg vijeka do današnjih dana."
+    },
+    {
+        href: "1996GrobljaPozeskeDoline.html",
+        imageUrl: "images/Bolta/1997Rudina.jpg",
+        title: "Rudina",
+        alt: "Rudina",
+        year: "1997",
+        author: "Tomislav Wittenberg",
+        description: "Rudina je bila centar ili bolje rečeno središte centralne Slavonije u kojoj se spaja sve ono najbolje toga vremena."
+    },
+    {
+        href: "1996GrobljaPozeskeDoline.html",
+        imageUrl: "images/Bolta/1996GrobljaPozeskeDoline.jpg",
+        title: "Groblja Požeške Doline",
+        alt: "Groblja Požeške Doline",
+        year: "1996",
+        author: "Tomislav Wittenberg",
+        description: "Jedinstvena publikacija o grobljima Požeške doline, odnosno bivšeg kotara i općine Požega."
+    }
+];
+
 
 function loaderPage() {
-    $(".fh5co-loader").fadeOut("slow");
-};
+        $(".fh5co-loader").fadeOut("slow");
+    };
 
 var isMobile = {
     Android: function () {
@@ -439,6 +583,130 @@ function createCarouselUdemy() {
     document.getElementById("carouselUdemy").appendChild(carouselContainer);
 }
 
+function createCarouselBoltaShop() {
+    var carouselContainer = document.createElement("div");
+    carouselContainer.classList.add("owl-carousel", "owl-theme");
+
+    boltaShop.forEach(function (image) {
+        var link = document.createElement("a");
+        link.setAttribute("href", image.href);
+        link.setAttribute("data-lightbox", "boltaShop");
+        link.setAttribute("data-title", image.title);
+
+        var img = document.createElement("img");
+        img.setAttribute("src", image.href);
+        img.setAttribute("alt", image.title);
+
+        link.appendChild(img);
+        carouselContainer.appendChild(link);
+    });
+
+    document.getElementById("carouselBoltaShop").appendChild(carouselContainer);
+}
+
+function createCarouselBoltaShopAdmin() {
+    const carouselContainer = document.createElement("div");
+    carouselContainer.classList.add("owl-carousel", "owl-theme");
+
+    boltaShopAdmin.forEach(function (image) {
+        const colDiv = document.createElement("div");
+        colDiv.classList.add("col-md-12", "text-center", "col-padding", "animate-box");
+
+        const innerDiv = document.createElement("div");
+        innerDiv.classList.add("text-center", "col-padding", "animate-box");
+
+        const link = document.createElement("a");
+        link.setAttribute("href", image.href);
+        link.classList.add("work");
+        link.setAttribute("data-lightbox", "boltaShopAdmin");
+        link.setAttribute("data-title", image.title);
+
+        const img = document.createElement("img");
+        img.setAttribute("src", image.href);
+        img.setAttribute("alt", image.alt);
+
+        const descDiv = document.createElement("div");
+        descDiv.classList.add("desc");
+
+        const h3 = document.createElement("h3");
+        h3.textContent = image.title;
+        h3.style.position = "absolute";
+        h3.style.bottom = "20px";
+        h3.style.left = "15px";
+
+        descDiv.appendChild(h3);
+        link.appendChild(img);
+        innerDiv.appendChild(link);
+        innerDiv.appendChild(descDiv);
+        colDiv.appendChild(innerDiv);
+        carouselContainer.appendChild(colDiv);
+    });
+
+    document.getElementById("carouselBoltaShopAdmin").appendChild(carouselContainer);
+}
+
+function createCarouselBolta() {
+    const carouselContainer = document.createElement("div");
+    carouselContainer.classList.add("owl-carousel", "owl-theme");
+
+    boltaBooks.forEach(function (image) {
+        const colDiv = document.createElement("div");
+        colDiv.classList.add("col-md-12");
+
+        const fh5coDiv = document.createElement("div");
+        fh5coDiv.classList.add("fh5co-blog", "animate-box");
+
+        const link = document.createElement("a");
+        link.setAttribute("href", image.href);
+        link.classList.add("blog-bg");
+        link.style.backgroundImage = `url(${image.imageUrl})`;
+
+        const blogTextDiv = document.createElement("div");
+        blogTextDiv.classList.add("blog-text");
+
+        //const span = document.createElement("span");
+        //span.classList.add("posted_on");
+        //span.textContent = image.year;
+
+        const h3 = document.createElement("h3");
+        const h3Link = document.createElement("a");
+        h3Link.setAttribute("href", image.href);
+        h3Link.textContent = image.title;
+        h3.appendChild(h3Link);
+
+        const p = document.createElement("p");
+        p.textContent = image.description;
+        p.style.fontSize = "70%";
+
+        const ul = document.createElement("ul");
+        ul.classList.add("stuff");
+        ul.style.fontSize = "70%";
+
+        const li1 = document.createElement("li");
+        li1.style.color = "darkgray";
+        li1.textContent = image.year;
+
+        const li2 = document.createElement("li");
+        li2.textContent = image.author;
+
+        ul.appendChild(li1);
+        ul.appendChild(li2);
+
+        //blogTextDiv.appendChild(span);
+        blogTextDiv.appendChild(h3);
+        blogTextDiv.appendChild(p);
+        blogTextDiv.appendChild(ul);
+
+        fh5coDiv.appendChild(link);
+        fh5coDiv.appendChild(blogTextDiv);
+
+        colDiv.appendChild(fh5coDiv);
+        carouselContainer.appendChild(colDiv);
+    });
+
+    document.getElementById("carouselBoltaBooks").appendChild(carouselContainer);
+}
+
 
 // START
 loaderPage();
@@ -452,3 +720,6 @@ populateCourses();
 populateTestDome();
 createCarouselAlgebra();
 createCarouselUdemy();
+createCarouselBoltaShop();
+createCarouselBoltaShopAdmin();
+createCarouselBolta();
