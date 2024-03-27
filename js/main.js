@@ -3,6 +3,12 @@
 
 const courses = [
     {
+        name: "RESTful Web API - The Complete Guide (.NET7 API) Part 2",
+        instructor: "Bhrugen Patel",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-2234b8f7-fb5c-4310-bfc0-27d0fd97418f.jpg?v=1711560166000",
+        image: "images/udemy/RESTful Web API - The Complete Guide (.NET7 API) Part 2.jpg"
+    },
+    {
         name: "ChatGPT for .NET developers",
         instructor: "Darek Kacban",
         imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-a80b0d3a-f840-485f-bb32-ab0b2a802f43.jpg?v=1711270419000",
