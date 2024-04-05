@@ -3,6 +3,12 @@
 
 const courses = [
     {
+        name: "Learn GraphQL with .Net Core For Absolute Beginners",
+        instructor: "Asfend Yar Hamid",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-0d7d5924-ecb3-443a-aacd-f80d53688e6a.jpg",
+        image: "images/udemy/Learn GraphQL with .Net Core For Absolute Beginners.jpg"
+    },
+    {
         name: "RESTful Web API - The Complete Guide (.NET7 API) Part 2",
         instructor: "Bhrugen Patel",
         imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-2234b8f7-fb5c-4310-bfc0-27d0fd97418f.jpg?v=1711560166000",
