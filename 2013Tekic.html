@@ -50,10 +50,6 @@
 
 </head>
 <body>
-
-
-
-
     <div id="fh5co-features" class="animate-box">
         <div class="container-fluid">
             <div class="services-padding">
@@ -93,8 +89,8 @@
                                             <div class="pd-title">
                                                 <span>Tomislav Wittenberg</span>
                                                 <!--<h3>Tekić</h3>-->
-                                                </div>
-                                            
+                                            </div>
+
                                             <div class="pd-desc">
                                                 <hr />
                                                 <p>U središnjem dijelu Požeštine, kojeg još Rimljani prozvaše 'Zlatnom dolinom – Valis aurea', sjeverno zapadno od sela Jakšića, smjestilo se selo Tekić.</p>
@@ -165,346 +161,333 @@
                                 </div>
 
                                 <!--<div class="row">
-                        <div class="col-md-4 text-center">
-                            <div class="feature-left">
-                                <span class="icon">
-                                    <i class="icon-paintbrush"></i>
-                                </span>
-                                <div class="feature-copy">
-                                    <h3>Web Design</h3>
-                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                                </div>
-                            </div>
-                        </div>
+                                    <div class="col-md-4 text-center">
+                                        <div class="feature-left">
+                                            <span class="icon">
+                                                <i class="icon-paintbrush"></i>
+                                            </span>
+                                            <div class="feature-copy">
+                                                <h3>Web Design</h3>
+                                                <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                        <div class="col-md-4 text-center">
-                            <div class="feature-left">
-                                <span class="icon">
-                                    <i class="icon-briefcase"></i>
-                                </span>
-                                <div class="feature-copy">
-                                    <h3>Branding</h3>
-                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                                </div>
-                            </div>
+                                    <div class="col-md-4 text-center">
+                                        <div class="feature-left">
+                                            <span class="icon">
+                                                <i class="icon-briefcase"></i>
+                                            </span>
+                                            <div class="feature-copy">
+                                                <h3>Branding</h3>
+                                                <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                                            </div>
+                                        </div>
 
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <div class="feature-left">
-                                <span class="icon">
-                                    <i class="icon-search"></i>
-                                </span>
-                                <div class="feature-copy">
-                                    <h3>Analytics</h3>
-                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <div class="feature-left">
+                                            <span class="icon">
+                                                <i class="icon-search"></i>
+                                            </span>
+                                            <div class="feature-copy">
+                                                <h3>Analytics</h3>
+                                                <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+                                <div class="row">
+                                    <div class="col-md-4 text-center">
+
+                                        <div class="feature-left">
+                                            <span class="icon">
+                                                <i class="icon-bargraph"></i>
+                                            </span>
+                                            <div class="feature-copy">
+                                                <h3>Web Developent</h3>
+                                                <p>HTML5 / .NET Core / WordPress</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-4 text-center">
+                                        <div class="feature-left">
+                                            <span class="icon">
+                                                <i class="icon-genius"></i>
+                                            </span>
+                                            <div class="feature-copy">
+                                                <h3>Photo / Video</h3>
+                                                <p>Photography / Videography</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <div class="feature-left">
+                                            <span class="icon">
+                                                <i class="icon-chat"></i>
+                                            </span>
+                                            <div class="feature-copy">
+                                                <h3>Support</h3>
+                                                <p>24/7 Support</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>-->
                             </div>
                         </div>
                     </div>
+
+                </section>
+
+                <!-- START Product -->
+                <section class="product-shop spad page-details">
+                    <div class="container">
                         <div class="row">
-                        <div class="col-md-4 text-center">
+                            <div class="col-lg-12">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="product-pic-zoom">
+                                            <img class="product-big-img" src="images/Bolta/2013Tekic.jpg" alt="Tekić">
+                                            <div class="zoom-icon">
+                                                <i class="fa fa-search-plus"></i>
+                                            </div>
+                                        </div>
+                                        <div class="product-thumbs">
+                                            <div class="product-thumbs-track ps-slider owl-carousel">
+                                                @foreach (var item in Model.ProductImages)
+                                                {
+                                                <div class="pt active" data-imgbigurl="@item.ImageUrl">
+                                                    <img src="@item.ImageUrl" alt="@item.Name">
+                                                </div>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="product-details">
+                                            <div class="pd-title">
+                                                <span>Tomislav Wittenberg</span>
+                                                <h3>Tekić</h3>
+                                                <a href="#" class="heart-icon"><i class="icon_heart_alt"></i></a>
+                                            </div>
+                                            <div class="pd-rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                @*<i class="fa fa-star-o"></i>*@
+                                                @*<span>(5)</span>*@
+                                            </div>
 
-                            <div class="feature-left">
-                                <span class="icon">
-                                    <i class="icon-bargraph"></i>
-                                </span>
-                                <div class="feature-copy">
-                                    <h3>Web Developent</h3>
-                                    <p>HTML5 / .NET Core / WordPress</p>
+                                            <div class="pd-desc">
+                                                <hr />
+                                                <p>U središnjem dijelu Požeštine, kojeg još Rimljani prozvaše 'Zlatnom dolinom – Valis aurea', sjeverno zapadno od sela Jakšića, smjestilo se selo Tekić.</p>
+                                                <hr />
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <div>
+                                                    <p align="left">Category: <b>BOOK</b> Monography</p>
+                                                    <p align="left">Book Binding: <b>Hard</b></p>
+
+                                                </div>
+                                                <div>
+                                                    <div align="right">
+                                                        <a href="https://www.linkedin.com/in/kresimirwittenberg"><i class="ti-linkedin"></i></a>
+                                                        <a href="https://www.facebook.com/kresimirwittenberg"><i class="ti-facebook"></i></a>
+                                                        <a href="https://www.instagram.com/kresimirwittenberg/"><i class="ti-instagram"></i></a>
+                                                        <a href="https://github.com/KWittenberg"><i class="ti-github"></i></a>
+                                                        <a href="https://www.behance.net/kwittenberg"><i class="ti-behance"></i></a>
+                                                        <a href="https://twitter.com/WBolta"><i class="ti-twitter"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pd-desc">
+                                                @if (Model.Discount == true)
+                                                {
+                                                var priceEuroDiscount = @Model.DiscountPrice / euro;
+                                                var priceEuro = @Model.Price / euro;
+                                                <h3>@string.Format("{0:C}", Model.DiscountPrice)<span>@string.Format("{0:C}", Model.Price)</span>&nbsp; @priceEuroDiscount.ToString("0.00") € <span>@priceEuro.ToString("0.00") €</span></h3>
+                                                <input type="text" readonly hidden value="@Model.DiscountPrice" name="Price">
+                                                }
+                                                else
+                                                {
+                                                var priceEuro = @Model.Price / euro;
+                                                <h3 style="display:inline;">@string.Format("{0:C}", Model.Price) &nbsp;</h3>  <h4 style="display:inline;">@priceEuro.ToString("0.00") €</h4>
+                                                <input type="text" readonly hidden value="@Model.Price" name="Price">
+                                                }
+                                            </div>
+
+                                            <div class="mt-5 quantity">
+                                                <div class="pro-qty"><input name="Quantity" type="text" value="1" style=""></div>
+                                                <input type="submit" value="Add to Cart" class="site-btn place-btn"><a asp-controller="Shop" asp-action="Index" class="secondary-btn">Back</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-md-4 text-center">
-                            <div class="feature-left">
-                                <span class="icon">
-                                    <i class="icon-genius"></i>
-                                </span>
-                                <div class="feature-copy">
-                                    <h3>Photo / Video</h3>
-                                    <p>Photography / Videography</p>
+                                <div class="product-tab">
+                                    <div class="tab-item col-lg-10 offset-1">
+                                        <ul class="nav justify-content-center" role="tablist">
+                                            <li><a class="active" data-toggle="tab" href="#tab-1" role="tab">DESCRIPTION</a></li>
+                                            <li><a data-toggle="tab" href="#tab-2" role="tab">SPECIFICATIONS</a></li>
+                                            @*
+                                            <li><a data-toggle="tab" href="#tab-3" role="tab">Customer Reviews (02)</a></li>*@
+                                        </ul>
+                                    </div>
+                                    <div class="tab-item-content">
+                                        <div class="tab-content">
+                                            <div class="tab-pane fade-in active" id="tab-1" role="tabpanel">
+                                                <div class="product-content">
+                                                    <div class="row">
+                                                        <div class="col-lg-10 offset-1">
+                                                            <h5>@Model.Title</h5>
+                                                            <p>@Model.Description</p>
+                                                        </div>
+                                                        <div class="col-lg-5">
+                                                            <img src="" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="tab-2" role="tabpanel">
+                                                <div class="mt-5 container-sm text-center" style="max-width: 600px;">
+                                                    <table class="table">
+                                                        <tbody>
+                                                            <tr><th scope="row">Category</th><td>@Model.BookCategory</td></tr>
+                                                            <tr><th scope="row">Binding</th><td>@Model.BookBinding</td></tr>
+                                                            <tr><th scope="row">Publisher</th><td>@Model.Publisher</td></tr>
+                                                            <tr><th scope="row">ISBN</th><td>@Model.Isbn</td></tr>
+                                                            <tr><th scope="row">Year Of Publication</th><td>@Model.YearOfPublication</td></tr>
+                                                            <tr><th scope="row">Number Of Pages</th><td>@Model.NumberOfPages</td></tr>
+                                                            <tr><th scope="row">Size</th><td>@Model.Width x @Model.Height x @Model.Thickness</td></tr>
+                                                            <tr><th scope="row">Weight</th><td>@Model.Weight</td></tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="tab-3" role="tabpanel">
+                                                <div class="customer-review-option">
+                                                    <h4>2 Comments</h4>
+                                                    <div class="comment-option">
+                                                        <div class="co-item">
+                                                            <div class="avatar-pic">
+                                                                <img src="img/product-single/avatar-1.png" alt="">
+                                                            </div>
+                                                            <div class="avatar-text">
+                                                                <div class="at-rating">
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star-o"></i>
+                                                                </div>
+                                                                <h5>Brandon Kelley <span>27 Aug 2019</span></h5>
+                                                                <div class="at-reply">Nice !</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="co-item">
+                                                            <div class="avatar-pic">
+                                                                <img src="img/product-single/avatar-2.png" alt="">
+                                                            </div>
+                                                            <div class="avatar-text">
+                                                                <div class="at-rating">
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star-o"></i>
+                                                                </div>
+                                                                <h5>Roy Banks <span>27 Aug 2019</span></h5>
+                                                                <div class="at-reply">Nice !</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="personal-rating">
+                                                        <h6>Your Ratind</h6>
+                                                        <div class="rating">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star-o"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="leave-comment">
+                                                        <h4>Leave A Comment</h4>
+                                                        <form action="#" class="comment-form">
+                                                            <div class="row">
+                                                                <div class="col-lg-6">
+                                                                    <input type="text" placeholder="Name">
+                                                                </div>
+                                                                <div class="col-lg-6">
+                                                                    <input type="text" placeholder="Email">
+                                                                </div>
+                                                                <div class="col-lg-12">
+                                                                    <textarea placeholder="Messages"></textarea>
+                                                                    <button type="submit" class="site-btn">Send message</button>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <div class="feature-left">
-                                <span class="icon">
-                                    <i class="icon-chat"></i>
-                                </span>
-                                <div class="feature-copy">
-                                    <h3>Support</h3>
-                                    <p>24/7 Support</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>-->
                             </div>
                         </div>
                     </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- END Product -->
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Stellar Parallax -->
+    <script src="js/jquery.stellar.min.js"></script>
+    <!-- Easy PieChart -->
+    <script src="js/jquery.easypiechart.min.js"></script>
 
+    <!-- Main -->
+    <script src="js/main.js"></script>
 
+    <!-- jQuery -->
+    <!--<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>-->
+    <!-- LightBox2 -->
+    <script src="js/lightbox.js"></script>
+    <!-- Carousel -->
+    <script src="js/owl.carousel.min.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    <!-- START Product -->
-                    <section class="product-shop spad page-details">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="product-pic-zoom">
-                                                <img class="product-big-img" src="images/Bolta/2013Tekic.jpg" alt="Tekić">
-                                                <div class="zoom-icon">
-                                                    <i class="fa fa-search-plus"></i>
-                                                </div>
-                                            </div>
-                                            <div class="product-thumbs">
-                                                <div class="product-thumbs-track ps-slider owl-carousel">
-                                                    @foreach (var item in Model.ProductImages)
-                                                    {
-                                                    <div class="pt active" data-imgbigurl="@item.ImageUrl">
-                                                        <img src="@item.ImageUrl" alt="@item.Name">
-                                                    </div>
-                                                    }
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="product-details">
-                                                <div class="pd-title">
-                                                    <span>Tomislav Wittenberg</span>
-                                                    <h3>Tekić</h3>
-                                                    <a href="#" class="heart-icon"><i class="icon_heart_alt"></i></a>
-                                                </div>
-                                                <div class="pd-rating">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    @*<i class="fa fa-star-o"></i>*@
-                                                    @*<span>(5)</span>*@
-                                                </div>
-
-                                                <div class="pd-desc">
-                                                    <hr />
-                                                    <p>U središnjem dijelu Požeštine, kojeg još Rimljani prozvaše 'Zlatnom dolinom – Valis aurea', sjeverno zapadno od sela Jakšića, smjestilo se selo Tekić.</p>
-                                                    <hr />
-                                                </div>
-                                                <div class="d-flex justify-content-between">
-                                                    <div>
-                                                        <p align="left">Category: <b>BOOK</b> Monography</p>
-                                                        <p align="left">Book Binding: <b>Hard</b></p>
-
-                                                    </div>
-                                                    <div>
-                                                        <div align="right">
-                                                            <a href="https://www.linkedin.com/in/kresimirwittenberg"><i class="ti-linkedin"></i></a>
-                                                            <a href="https://www.facebook.com/kresimirwittenberg"><i class="ti-facebook"></i></a>
-                                                            <a href="https://www.instagram.com/kresimirwittenberg/"><i class="ti-instagram"></i></a>
-                                                            <a href="https://github.com/KWittenberg"><i class="ti-github"></i></a>
-                                                            <a href="https://www.behance.net/kwittenberg"><i class="ti-behance"></i></a>
-                                                            <a href="https://twitter.com/WBolta"><i class="ti-twitter"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="pd-desc">
-                                                    @if (Model.Discount == true)
-                                                    {
-                                                    var priceEuroDiscount = @Model.DiscountPrice / euro;
-                                                    var priceEuro = @Model.Price / euro;
-                                                    <h3>@string.Format("{0:C}", Model.DiscountPrice)<span>@string.Format("{0:C}", Model.Price)</span>&nbsp; @priceEuroDiscount.ToString("0.00") € <span>@priceEuro.ToString("0.00") €</span></h3>
-                                                    <input type="text" readonly hidden value="@Model.DiscountPrice" name="Price">
-                                                    }
-                                                    else
-                                                    {
-                                                    var priceEuro = @Model.Price / euro;
-                                                    <h3 style="display:inline;">@string.Format("{0:C}", Model.Price) &nbsp;</h3>  <h4 style="display:inline;">@priceEuro.ToString("0.00") €</h4>
-                                                    <input type="text" readonly hidden value="@Model.Price" name="Price">
-                                                    }
-                                                </div>
-
-                                                <div class="mt-5 quantity">
-                                                    <div class="pro-qty"><input name="Quantity" type="text" value="1" style=""></div>
-                                                    <input type="submit" value="Add to Cart" class="site-btn place-btn"><a asp-controller="Shop" asp-action="Index" class="secondary-btn">Back</a>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="product-tab">
-                                        <div class="tab-item col-lg-10 offset-1">
-                                            <ul class="nav justify-content-center" role="tablist">
-                                                <li><a class="active" data-toggle="tab" href="#tab-1" role="tab">DESCRIPTION</a></li>
-                                                <li><a data-toggle="tab" href="#tab-2" role="tab">SPECIFICATIONS</a></li>
-                                                @*
-                                                <li><a data-toggle="tab" href="#tab-3" role="tab">Customer Reviews (02)</a></li>*@
-                                            </ul>
-                                        </div>
-                                        <div class="tab-item-content">
-                                            <div class="tab-content">
-                                                <div class="tab-pane fade-in active" id="tab-1" role="tabpanel">
-                                                    <div class="product-content">
-                                                        <div class="row">
-                                                            <div class="col-lg-10 offset-1">
-                                                                <h5>@Model.Title</h5>
-                                                                <p>@Model.Description</p>
-                                                            </div>
-                                                            <div class="col-lg-5">
-                                                                <img src="" alt="">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="tab-pane fade" id="tab-2" role="tabpanel">
-                                                    <div class="mt-5 container-sm text-center" style="max-width: 600px;">
-                                                        <table class="table">
-                                                            <tbody>
-                                                                <tr><th scope="row">Category</th><td>@Model.BookCategory</td></tr>
-                                                                <tr><th scope="row">Binding</th><td>@Model.BookBinding</td></tr>
-                                                                <tr><th scope="row">Publisher</th><td>@Model.Publisher</td></tr>
-                                                                <tr><th scope="row">ISBN</th><td>@Model.Isbn</td></tr>
-                                                                <tr><th scope="row">Year Of Publication</th><td>@Model.YearOfPublication</td></tr>
-                                                                <tr><th scope="row">Number Of Pages</th><td>@Model.NumberOfPages</td></tr>
-                                                                <tr><th scope="row">Size</th><td>@Model.Width x @Model.Height x @Model.Thickness</td></tr>
-                                                                <tr><th scope="row">Weight</th><td>@Model.Weight</td></tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                                <div class="tab-pane fade" id="tab-3" role="tabpanel">
-                                                    <div class="customer-review-option">
-                                                        <h4>2 Comments</h4>
-                                                        <div class="comment-option">
-                                                            <div class="co-item">
-                                                                <div class="avatar-pic">
-                                                                    <img src="img/product-single/avatar-1.png" alt="">
-                                                                </div>
-                                                                <div class="avatar-text">
-                                                                    <div class="at-rating">
-                                                                        <i class="fa fa-star"></i>
-                                                                        <i class="fa fa-star"></i>
-                                                                        <i class="fa fa-star"></i>
-                                                                        <i class="fa fa-star"></i>
-                                                                        <i class="fa fa-star-o"></i>
-                                                                    </div>
-                                                                    <h5>Brandon Kelley <span>27 Aug 2019</span></h5>
-                                                                    <div class="at-reply">Nice !</div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="co-item">
-                                                                <div class="avatar-pic">
-                                                                    <img src="img/product-single/avatar-2.png" alt="">
-                                                                </div>
-                                                                <div class="avatar-text">
-                                                                    <div class="at-rating">
-                                                                        <i class="fa fa-star"></i>
-                                                                        <i class="fa fa-star"></i>
-                                                                        <i class="fa fa-star"></i>
-                                                                        <i class="fa fa-star"></i>
-                                                                        <i class="fa fa-star-o"></i>
-                                                                    </div>
-                                                                    <h5>Roy Banks <span>27 Aug 2019</span></h5>
-                                                                    <div class="at-reply">Nice !</div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="personal-rating">
-                                                            <h6>Your Ratind</h6>
-                                                            <div class="rating">
-                                                                <i class="fa fa-star"></i>
-                                                                <i class="fa fa-star"></i>
-                                                                <i class="fa fa-star"></i>
-                                                                <i class="fa fa-star"></i>
-                                                                <i class="fa fa-star-o"></i>
-                                                            </div>
-                                                        </div>
-                                                        <div class="leave-comment">
-                                                            <h4>Leave A Comment</h4>
-                                                            <form action="#" class="comment-form">
-                                                                <div class="row">
-                                                                    <div class="col-lg-6">
-                                                                        <input type="text" placeholder="Name">
-                                                                    </div>
-                                                                    <div class="col-lg-6">
-                                                                        <input type="text" placeholder="Email">
-                                                                    </div>
-                                                                    <div class="col-lg-12">
-                                                                        <textarea placeholder="Messages"></textarea>
-                                                                        <button type="submit" class="site-btn">Send message</button>
-                                                                    </div>
-                                                                </div>
-                                                            </form>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <!-- END Product -->
-                    <!-- jQuery -->
-                    <script src="js/jquery.min.js"></script>
-                    <!-- jQuery Easing -->
-                    <script src="js/jquery.easing.1.3.js"></script>
-                    <!-- Bootstrap -->
-                    <script src="js/bootstrap.min.js"></script>
-                    <!-- Waypoints -->
-                    <script src="js/jquery.waypoints.min.js"></script>
-                    <!-- Stellar Parallax -->
-                    <script src="js/jquery.stellar.min.js"></script>
-                    <!-- Easy PieChart -->
-                    <script src="js/jquery.easypiechart.min.js"></script>
-
-                    <!-- Main -->
-                    <script src="js/main.js"></script>
-
-                    <!-- jQuery -->
-                    <!--<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>-->
-                    <!-- LightBox2 -->
-                    <script src="js/lightbox.js"></script>
-                    <!-- Carousel -->
-                    <script src="js/owl.carousel.min.js"></script>
-
-                    <script>
-                        $('.owl-carousel').owlCarousel({
-                            autoplay: false,
-                            margin: 10,
-                            nav: false,
-                            loop: false,
-                            responsive: {
-                                0: {
-                                    items: 1
-                                },
-                                600: {
-                                    items: 3
-                                },
-                                1000: {
-                                    items: 5
-                                }
-                            }
-                        })
-                    </script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            autoplay: false,
+            margin: 10,
+            nav: false,
+            loop: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
 
 </body>
 </html>
