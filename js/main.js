@@ -3,6 +3,12 @@
 
 const courses = [
     {
+        name: "ASP.NET Core - SOLID and Clean Architecture",
+        instructor: "Trevoir Williams",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-e7e2aa2e-149d-425c-835b-af8bec12bcb5.jpg",
+        image: "images/udemy/ASP.NET Core - SOLID and Clean Architecture.jpg"
+    },
+    {
         name: "Learn GraphQL with .Net Core For Absolute Beginners",
         instructor: "Asfend Yar Hamid",
         imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-0d7d5924-ecb3-443a-aacd-f80d53688e6a.jpg",
@@ -11,109 +17,109 @@ const courses = [
     {
         name: "RESTful Web API - The Complete Guide (.NET7 API) Part 2",
         instructor: "Bhrugen Patel",
-        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-2234b8f7-fb5c-4310-bfc0-27d0fd97418f.jpg?v=1711560166000",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-2234b8f7-fb5c-4310-bfc0-27d0fd97418f.jpg",
         image: "images/udemy/RESTful Web API - The Complete Guide (.NET7 API) Part 2.jpg"
     },
     {
         name: "ChatGPT for .NET developers",
         instructor: "Darek Kacban",
-        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-a80b0d3a-f840-485f-bb32-ab0b2a802f43.jpg?v=1711270419000",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-a80b0d3a-f840-485f-bb32-ab0b2a802f43.jpg",
         image: "images/udemy/ChatGPT for .NET developers.jpg"
     },
     {
         name: "Make an E-Commerce Website with Blazor",
         instructor: "Patrick God",
-        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-b3127d9a-f51a-4d9d-9e98-6b5ed750b068.jpg?v=1709824697000",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-b3127d9a-f51a-4d9d-9e98-6b5ed750b068.jpg",
         image: "images/udemy/Make an E-Commerce Website with Blazor.jpg"
     },
     {
         name: "Unit Testing for C# Developers",
         instructor: "Mosh Hamedani",
-        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-78cc5d5e-a0b0-419f-aab0-686968b3c66e.jpg?v=1708768829000",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-78cc5d5e-a0b0-419f-aab0-686968b3c66e.jpg",
         image: "images/udemy/Unit Testing for C Developers.jpg"
     },
     {
         name: "Mastering SQL Server RDS on AWS",
         instructor: "Emar Morrison",
-        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-13df86f2-7ed5-4617-8fa8-cb2a995f71c9.jpg?v=1705658963000",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-13df86f2-7ed5-4617-8fa8-cb2a995f71c9.jpg",
         image: "images/udemy/Mastering SQL Server RDS on AWS.jpg"
     },
     {
         name: "MySQL Database Development Mastery",
         instructor: "Trevoir Williams",
-        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-c4532d5b-c8db-44aa-bd3c-c7cc81611791.jpg?v=1705530065000",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-c4532d5b-c8db-44aa-bd3c-c7cc81611791.jpg",
         image: "images/udemy/MySQL Database Development Mastery.jpg"
     },
     {
         name: "Vue JS 3: The Composition API (Inc Script Setup, TypeScript)",
         instructor: "Lachlan Miller",
-        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-f5d8ca86-2911-4a64-a13e-234dc9732000.jpg?v=1699392142000",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-f5d8ca86-2911-4a64-a13e-234dc9732000.jpg",
         image: "images/udemy/Vue JS 3 - The Composition API.jpg"
     },
     {
         name: "TypeScript for Professionals - 2023 Edition",
         instructor: "Basarat Ali Syed",
-        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-bea7c56d-e4a3-443d-99cb-8916cf74442d.jpg?v=1698531996000",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-bea7c56d-e4a3-443d-99cb-8916cf74442d.jpg",
         image: "images/udemy/TypeScript for Professionals - 2023 Edition.jpg"
     },
     {
         name: "The Fastest Javascript Course: From ZERO to HERO",
         instructor: "Ivan Lourenco Gomes",
-        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-7a481cac-e1a1-45d1-9e19-986b18e2d8ee.jpg?v=1697751930000",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-7a481cac-e1a1-45d1-9e19-986b18e2d8ee.jpg",
         image: "images/udemy/The Fastest Javascript Course From ZERO to HERO.jpg"
     },
     {
         name: "LINQ Tutorial: Master the Key C# Library",
         instructor: "Krystyna Slusarczyk",
-        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-c63a29b6-c578-4c9c-9bd9-a2f9391d3f37.jpg?v=1693860801000",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-c63a29b6-c578-4c9c-9bd9-a2f9391d3f37.jpg",
         image: "images/udemy/Master the Key C Library.jpg"
     },
     {
         name: "Advanced Topics in C#",
         instructor: "Dmitri Nesteruk",
-        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-085faa65-8d7f-40a2-a44a-86548902358b.jpg?v=1693226499000",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-085faa65-8d7f-40a2-a44a-86548902358b.jpg",
         image: "images/udemy/Advanced Topics in C.jpg"
     },
     {
         name: "C# Advanced Topics - The Next Logical Step",
         instructor: "Tod Vachev",
-        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-9f658559-4f52-473a-a799-3da967117d8f.jpg?v=1692521361000",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-9f658559-4f52-473a-a799-3da967117d8f.jpg",
         image: "images/udemy/C Advanced Topics - The Next Logical Step.jpg"
     },
     {
         name: "C# Developers: Double Your Coding Speed with Visual Studio",
         instructor: "Mosh Hamedani",
-        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-af98a529-7aca-4655-86a4-cef0f8832165.jpg?v=1688492322000",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-af98a529-7aca-4655-86a4-cef0f8832165.jpg",
         image: "images/udemy/Double Your Coding Speed with Visual Studio.jpg"
     },
     {
         name: "C# Intermediate: Classes, Interfaces and OOP",
         instructor: "Mosh Hamedani",
-        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-3365e84c-2009-4885-b0a4-5f5c426db1be.jpg?v=1688251015000",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-3365e84c-2009-4885-b0a4-5f5c426db1be.jpg",
         image: "images/udemy/C Intermediate Classes, Interfaces and OOP.jpg"
     },
     {
         name: "RESTful Web API - The Complete Guide (.NET7 API) Part 1",
         instructor: "Bhrugen Patel",
-        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-9c037745-8e34-4612-b365-83bf2296320a.jpg?v=1677501367000",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-9c037745-8e34-4612-b365-83bf2296320a.jpg",
         image: "images/udemy/RESTful Web API - The Complete Guide (.NET7 API).jpg"
     },
     {
         name: ".NET 7 Web API & Entity Framework Jumpstart",
         instructor: "Patrick God",
-        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-cbf7c8dc-30f6-4fb1-81c9-f1106377b747.jpg?v=1677136245000",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-cbf7c8dc-30f6-4fb1-81c9-f1106377b747.jpg",
         image: "images/udemy/NET 7 Web API & Entity Framework Jumpstart.jpg"
     },
     {
         name: "Azure DevOps and Continuous Delivery With Git",
         instructor: "Trevoir Williams",
-        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-7032393a-fd2c-4cb7-922c-fd1235d3f307.jpg?v=1676978191000",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-7032393a-fd2c-4cb7-922c-fd1235d3f307.jpg",
         image: "images/udemy/Azure DevOps and Continuous Delivery With Git.jpg"
     },
     {
         name: "ASP.NET Core - Cross-Platform Development",
         instructor: "Trevoir Williams",
-        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-3f0fe1d1-2969-4ef7-b896-69e49ad38cda.jpg?v=1675820316000",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-3f0fe1d1-2969-4ef7-b896-69e49ad38cda.jpg",
         image: "images/udemy/ASP.NET Core 7 MVC - Cross-Platform Development.jpg"
     }
 ];
