@@ -3,6 +3,12 @@
 
 const courses = [
     {
+        name: "Entity Framework Core - A Full Tour ",
+        instructor: "Trevoir Williams",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-89b5732c-7900-4408-8f9b-a18881b15bf0.jpg",
+        image: "images/udemy/Entity Framework Core - A Full Tour.jpg"
+    },
+    {
         name: "ASP.NET Core - SOLID and Clean Architecture",
         instructor: "Trevoir Williams",
         imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-e7e2aa2e-149d-425c-835b-af8bec12bcb5.jpg",
