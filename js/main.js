@@ -143,111 +143,126 @@ const algebra = [
     { href: "images/algebra/10.jpg", title: "Web API", alt: "Web API" }
 ];
 
-const certificates = [
+const certificatesTestDome = [
     {
         href: "https://www.testdome.com/certificates/6bb8a052b43e4792865ec9b98daf49fe",
         name: "Krešimir Wittenberg",
         testName: "Azure and DevOps",
         logo: "TestDome Certificate",
-        stampClass: "gold"
+        stampClass: "gold",
+        image: "images/testdome/6bb8a052b43e4792865ec9b98daf49fe.png"
     },
     {
         href: "https://www.testdome.com/certificates/bce69ecd332b4200afad896d6f4e988c",
         name: "Krešimir Wittenberg",
         testName: "ASP.NET (Core) MVC, HTML/CSS, JavaScript, C#, and SQL",
         logo: "TestDome Certificate",
-        stampClass: "gold"
+        stampClass: "gold",
+        image: "images/testdome/ASP.NET.png"
     },
     {
         href: "https://www.testdome.com/certificates/4c3f4dc0aff64f5daef482d0b35894d4",
         name: "Krešimir Wittenberg",
         testName: "C# and .NET",
         logo: "TestDome Certificate",
-        stampClass: "gold"
+        stampClass: "gold",
+        image: "images/testdome/4c3f4dc0aff64f5daef482d0b35894d4.png"
     },
     {
         href: "https://www.testdome.com/certificates/760fd22053244dcf8682cb082ebfea4a",
         name: "Krešimir Wittenberg",
         testName: "C#, MS SQL Server, and SQL",
         logo: "TestDome Certificate",
-        stampClass: "gold"
+        stampClass: "gold",
+        image: "images/testdome/C MS SQL SERVER and SQL.png"
     },
     {
         href: "https://www.testdome.com/certificates/08bf6cc5ccb646409dd6d3d48a57c0f8",
         name: "Krešimir Wittenberg",
         testName: "C#",
         logo: "TestDome Certificate",
-        stampClass: "gold"
+        stampClass: "gold",
+        image: "images/testdome/08bf6cc5ccb646409dd6d3d48a57c0f8.png"
     },
     {
         href: "https://www.testdome.com/certificates/b1ee11ef88944f029b6279df4b73e8ed",
         name: "Krešimir Wittenberg",
         testName: "REST API",
         logo: "TestDome Certificate",
-        stampClass: "gold"
+        stampClass: "gold",
+        image: "images/testdome/REST API.png"
     },
     {
         href: "https://www.testdome.com/certificates/74415868c0d54922b4dd786a73e1d7cb",
         name: "Krešimir Wittenberg",
         testName: "HTML/CSS",
         logo: "TestDome Certificate",
-        stampClass: "gold"
+        stampClass: "gold",
+        image: "images/testdome/HTML CSS.png"
     },
     {
         href: "https://www.testdome.com/certificates/2d4a16493915489c9a5613293a5c463b",
         name: "Krešimir Wittenberg",
         testName: "JavaScript",
         logo: "TestDome Certificate",
-        stampClass: "gold"
+        stampClass: "gold",
+        image: "images/testdome/JAVASCRIPT.png"
     },
     {
         href: "https://www.testdome.com/certificates/09fcf3aad1634a7f9ba02e0bf84fdd5b",
         name: "Krešimir Wittenberg",
         testName: "SQL",
         logo: "TestDome Certificate",
-        stampClass: "gold"
+        stampClass: "gold",
+        image: "images/testdome/SQL.png"
     },
     {
         href: "https://www.testdome.com/certificates/2855c20322924623bcde707e7ecfbeeb",
         name: "Krešimir Wittenberg",
         testName: "MongoDB",
         logo: "TestDome Certificate",
-        stampClass: "gold"
+        stampClass: "gold",
+        image: "images/testdome/MONGODB.png"
     },
     {
         href: "https://www.testdome.com/certificates/992d811abfc44a8b8a061a5140603520",
         name: "Krešimir Wittenberg",
         testName: "Git",
         logo: "TestDome Certificate",
-        stampClass: "gold"
+        stampClass: "gold",
+        image: "images/testdome/GIT.png"
     },
     {
         href: "https://www.testdome.com/certificates/b6423c12cf954909a9f067057d0d793a",
         name: "Krešimir Wittenberg",
         testName: "Azure",
         logo: "TestDome Certificate",
-        stampClass: "gold"
+        stampClass: "gold",
+        image: "images/testdome/AZURE.png"
     },
     {
         href: "https://www.testdome.com/certificates/824471e84c4449668dfc07b2f66b131b",
         name: "Krešimir Wittenberg",
         testName: "WordPress",
         logo: "TestDome Certificate",
-        stampClass: "gold"
+        stampClass: "gold",
+        image: "images/testdome/WORDPRESS.png"
     },
     {
         href: "https://www.testdome.com/certificates/73395701398a4741b807819c46860044",
         name: "Krešimir Wittenberg",
         testName: "C# and .NET",
         logo: "TestDome Certificate",
-        stampClass: "silver"
+        stampClass: "silver",
+        image: "images/testdome/73395701398a4741b807819c46860044.png"
     },
     {
         href: "https://www.testdome.com/certificates/3ffc240f7f654a859375ef1b3b2e6cff",
         name: "Krešimir Wittenberg",
         testName: "HTML/CSS",
         logo: "TestDome Certificate",
-        stampClass: "silver"
+        stampClass: "silver",
+        image: "images/testdome/AZURE AND DEVOPS.png"// FALI SLIKA
     }
 ];
 
@@ -396,6 +411,8 @@ const boltaBooks = [
 ];
 
 
+
+
 function loaderPage() {
         $(".fh5co-loader").fadeOut("slow");
     };
@@ -521,6 +538,7 @@ function skillsWayPoint() {
 
 
 
+/* Populate */
 function populateCourses() {
     const courseContainer = document.getElementById("course-container");
 
@@ -546,7 +564,7 @@ function populateCourses() {
 function populateTestDome() {
     var certificateList = document.getElementById("certificateList");
 
-    certificates.forEach(function (certificate) {
+    certificatesTestDome.forEach(function (certificate) {
         var certificateLink = document.createElement("a");
         certificateLink.setAttribute("href", certificate.href);
         certificateLink.setAttribute("target", "_blank");
@@ -565,6 +583,8 @@ function populateTestDome() {
     });
 }
 
+
+/* Carousel */
 function createCarouselAlgebra() {
     var carouselContainer = document.createElement("div");
     carouselContainer.classList.add("owl-carousel", "owl-theme");
@@ -605,6 +625,60 @@ function createCarouselUdemy() {
     });
 
     document.getElementById("carouselUdemy").appendChild(carouselContainer);
+}
+
+function createCarouselTestDomeBadge() {
+    var carouselContainer = document.createElement("div");
+    carouselContainer.classList.add("owl-carousel", "owl-theme");
+    carouselContainer.setAttribute("align", "center");
+
+    certificatesTestDome.forEach(function (certificatesTestDome) {
+        var link = document.createElement("a");
+        link.setAttribute("href", certificatesTestDome.href);
+        link.target = "_blank";
+        link.classList.add("testdome-certificate-stamp", certificatesTestDome.stampClass);
+
+        var nameSpan = document.createElement("span");
+        nameSpan.classList.add("testdome-certificate-name");
+        nameSpan.textContent = certificatesTestDome.name;
+
+        var testNameSpan = document.createElement("span");
+        testNameSpan.classList.add("testdome-certificate-test-name");
+        testNameSpan.textContent = certificatesTestDome.testName;
+
+        var logoSpan = document.createElement("span");
+        logoSpan.classList.add("testdome-certificate-card-logo");
+        logoSpan.textContent = "TestDome Certificate";
+
+        link.appendChild(nameSpan);
+        link.appendChild(testNameSpan);
+        link.appendChild(logoSpan);
+
+        carouselContainer.appendChild(link);
+    });
+
+    document.getElementById("carouselTestDomeBadge").appendChild(carouselContainer);
+}
+
+function createCarouselTestDome() {
+    var carouselContainer = document.createElement("div");
+    carouselContainer.classList.add("owl-carousel", "owl-theme");
+
+    certificatesTestDome.forEach(function (certificatesTestDome) {
+        var link = document.createElement("a");
+        link.setAttribute("href", certificatesTestDome.image);
+        link.setAttribute("data-lightbox", "testdome");
+        link.setAttribute("data-title", certificatesTestDome.testName);
+
+        var img = document.createElement("img");
+        img.setAttribute("src", certificatesTestDome.image);
+        img.setAttribute("alt", certificatesTestDome.testName);
+
+        link.appendChild(img);
+        carouselContainer.appendChild(link);
+    });
+
+    document.getElementById("carouselTestDome").appendChild(carouselContainer);
 }
 
 function createCarouselBoltaShop() {
@@ -744,6 +818,8 @@ populateCourses();
 populateTestDome();
 createCarouselAlgebra();
 createCarouselUdemy();
+createCarouselTestDomeBadge();
+createCarouselTestDome();
 createCarouselBoltaShop();
 createCarouselBoltaShopAdmin();
 createCarouselBolta();
