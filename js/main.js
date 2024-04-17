@@ -158,7 +158,7 @@ const certificatesTestDome = [
         testName: "ASP.NET (Core) MVC, HTML/CSS, JavaScript, C#, and SQL",
         logo: "TestDome Certificate",
         stampClass: "gold",
-        image: "images/testdome/ASP.NET.png"
+        image: "images/testdome/bce69ecd332b4200afad896d6f4e988c.png"
     },
     {
         href: "https://www.testdome.com/certificates/4c3f4dc0aff64f5daef482d0b35894d4",
@@ -174,7 +174,7 @@ const certificatesTestDome = [
         testName: "C#, MS SQL Server, and SQL",
         logo: "TestDome Certificate",
         stampClass: "gold",
-        image: "images/testdome/C MS SQL SERVER and SQL.png"
+        image: "images/testdome/760fd22053244dcf8682cb082ebfea4a.png"
     },
     {
         href: "https://www.testdome.com/certificates/08bf6cc5ccb646409dd6d3d48a57c0f8",
@@ -190,7 +190,7 @@ const certificatesTestDome = [
         testName: "REST API",
         logo: "TestDome Certificate",
         stampClass: "gold",
-        image: "images/testdome/REST API.png"
+        image: "images/testdome/b1ee11ef88944f029b6279df4b73e8ed.png"
     },
     {
         href: "https://www.testdome.com/certificates/74415868c0d54922b4dd786a73e1d7cb",
@@ -198,7 +198,7 @@ const certificatesTestDome = [
         testName: "HTML/CSS",
         logo: "TestDome Certificate",
         stampClass: "gold",
-        image: "images/testdome/HTML CSS.png"
+        image: "images/testdome/74415868c0d54922b4dd786a73e1d7cb.png"
     },
     {
         href: "https://www.testdome.com/certificates/2d4a16493915489c9a5613293a5c463b",
@@ -206,7 +206,7 @@ const certificatesTestDome = [
         testName: "JavaScript",
         logo: "TestDome Certificate",
         stampClass: "gold",
-        image: "images/testdome/JAVASCRIPT.png"
+        image: "images/testdome/2d4a16493915489c9a5613293a5c463b.png"
     },
     {
         href: "https://www.testdome.com/certificates/09fcf3aad1634a7f9ba02e0bf84fdd5b",
@@ -214,7 +214,7 @@ const certificatesTestDome = [
         testName: "SQL",
         logo: "TestDome Certificate",
         stampClass: "gold",
-        image: "images/testdome/SQL.png"
+        image: "images/testdome/09fcf3aad1634a7f9ba02e0bf84fdd5b.png"
     },
     {
         href: "https://www.testdome.com/certificates/2855c20322924623bcde707e7ecfbeeb",
@@ -222,7 +222,7 @@ const certificatesTestDome = [
         testName: "MongoDB",
         logo: "TestDome Certificate",
         stampClass: "gold",
-        image: "images/testdome/MONGODB.png"
+        image: "images/testdome/2855c20322924623bcde707e7ecfbeeb.png"
     },
     {
         href: "https://www.testdome.com/certificates/992d811abfc44a8b8a061a5140603520",
@@ -230,7 +230,7 @@ const certificatesTestDome = [
         testName: "Git",
         logo: "TestDome Certificate",
         stampClass: "gold",
-        image: "images/testdome/GIT.png"
+        image: "images/testdome/992d811abfc44a8b8a061a5140603520.png"
     },
     {
         href: "https://www.testdome.com/certificates/b6423c12cf954909a9f067057d0d793a",
@@ -238,7 +238,7 @@ const certificatesTestDome = [
         testName: "Azure",
         logo: "TestDome Certificate",
         stampClass: "gold",
-        image: "images/testdome/AZURE.png"
+        image: "images/testdome/b6423c12cf954909a9f067057d0d793a.png"
     },
     {
         href: "https://www.testdome.com/certificates/824471e84c4449668dfc07b2f66b131b",
@@ -246,7 +246,7 @@ const certificatesTestDome = [
         testName: "WordPress",
         logo: "TestDome Certificate",
         stampClass: "gold",
-        image: "images/testdome/WORDPRESS.png"
+        image: "images/testdome/824471e84c4449668dfc07b2f66b131b.png"
     },
     {
         href: "https://www.testdome.com/certificates/73395701398a4741b807819c46860044",
@@ -262,7 +262,7 @@ const certificatesTestDome = [
         testName: "HTML/CSS",
         logo: "TestDome Certificate",
         stampClass: "silver",
-        image: "images/testdome/AZURE AND DEVOPS.png"// FALI SLIKA
+        image: "images/testdome/3ffc240f7f654a859375ef1b3b2e6cff.png"
     }
 ];
 
