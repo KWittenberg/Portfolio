@@ -3,6 +3,12 @@
 
 const courses = [
     {
+        name: ".NET Core MVC - The Complete Guide 2023 [E-commerce] [.NET8]",
+        instructor: "Bhrugen Patel",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-e3b0ec6b-c223-4c4e-b7a6-b98a1c2fd27a.jpg",
+        image: "images/udemy/UC-e3b0ec6b-c223-4c4e-b7a6-b98a1c2fd27a.jpg"
+    },
+    {
         name: "Entity Framework Core - A Full Tour ",
         instructor: "Trevoir Williams",
         imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-89b5732c-7900-4408-8f9b-a18881b15bf0.jpg",
