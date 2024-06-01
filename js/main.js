@@ -3,6 +3,12 @@
 
 const courses = [
     {
+        name: "Blazor Deep Dive - From Beginner to Advanced in .NET 8",
+        instructor: "Frank Liu",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-668f3cc3-6dc6-42fe-a770-6f7ecb5fc3c9.jpg",
+        image: "images/udemy/UC-668f3cc3-6dc6-42fe-a770-6f7ecb5fc3c9.jpg"
+    },
+    {
         name: ".NET Core MVC - The Complete Guide 2023 [E-commerce] [.NET8]",
         instructor: "Bhrugen Patel",
         imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-e3b0ec6b-c223-4c4e-b7a6-b98a1c2fd27a.jpg",
