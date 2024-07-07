@@ -3,6 +3,12 @@
 
 const courses = [
     {
+        name: "Master ASP.NET Core Identity: Authentication & Authorization",
+        instructor: "Frank Liu",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-a708e254-0f0e-4f70-9964-0cb90eb5a672.jpg",
+        image: "images/udemy/UC-a708e254-0f0e-4f70-9964-0cb90eb5a672.jpg"
+    },
+    {
         name: "Clean Architecture for Beginners: A Practical Guide",
         instructor: "Frank Liu",
         imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-51c4de35-b91c-434e-92a0-ce2a856d861a.jpg",
