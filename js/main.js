@@ -3,6 +3,12 @@
 
 const courses = [
     {
+        name: "Blazor - The Complete Guide [.NET 9] [2024] [E-commerce]",
+        instructor: "Bhrugen Patel",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-8e2cfdf1-20b9-4241-81ac-d1f8ca0e805d.jpg",
+        image: "images/udemy/UC-8e2cfdf1-20b9-4241-81ac-d1f8ca0e805d.jpg"
+    },
+    {
         name: "Master ASP.NET Core Identity: Authentication & Authorization",
         instructor: "Frank Liu",
         imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-a708e254-0f0e-4f70-9964-0cb90eb5a672.jpg",
