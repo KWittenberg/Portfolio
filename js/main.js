@@ -3,6 +3,12 @@
 
 const courses = [
     {
+        name: "C# Mastering Course For Professionals",
+        instructor: "Kioomars Jonood, Samaneh Mazidi Sharaf Abadi",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-8a2838ea-fa7c-4aa7-9848-7bf6739ebc65.jpg",
+        image: "images/udemy/UC-8a2838ea-fa7c-4aa7-9848-7bf6739ebc65.jpg"
+    },
+    {
         name: "Blazor - The Complete Guide [.NET 9] [2024] [E-commerce]",
         instructor: "Bhrugen Patel",
         imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-8e2cfdf1-20b9-4241-81ac-d1f8ca0e805d.jpg",
@@ -837,7 +843,7 @@ function createCarouselBolta() {
 
 
 // START
-loaderPage();
+//loaderPage();
 contentWayPoint();
 goToTop();
 fullHeight();
