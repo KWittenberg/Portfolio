@@ -843,7 +843,7 @@ function createCarouselBolta() {
 
 
 // START
-//loaderPage();
+loaderPage();
 contentWayPoint();
 goToTop();
 fullHeight();
