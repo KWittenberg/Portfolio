@@ -3,6 +3,12 @@
 
 const courses = [
     {
+        name: "Generative AI for .NET Developers with Azure AI Service",
+        instructor: "Trevoir Williams",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-dfb14106-684d-449b-98e2-92e8241d24d7.jpg",
+        image: "images/udemy/UC-dfb14106-684d-449b-98e2-92e8241d24d7.jpg"
+    },
+    {
         name: "C# Mastering Course For Professionals",
         instructor: "Kioomars Jonood, Samaneh Mazidi Sharaf Abadi",
         imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-8a2838ea-fa7c-4aa7-9848-7bf6739ebc65.jpg",
@@ -39,7 +45,7 @@ const courses = [
         image: "images/udemy/UC-e3b0ec6b-c223-4c4e-b7a6-b98a1c2fd27a.jpg"
     },
     {
-        name: "Entity Framework Core - A Full Tour ",
+        name: "Entity Framework Core - A Full Tour",
         instructor: "Trevoir Williams",
         imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-89b5732c-7900-4408-8f9b-a18881b15bf0.jpg",
         image: "images/udemy/Entity Framework Core - A Full Tour.jpg"
