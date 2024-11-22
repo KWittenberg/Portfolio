@@ -3,6 +3,12 @@
 
 const courses = [
     {
+        name: "Understanding Semantic Kernel",
+        instructor: "Trevoir Williams",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-5bf9c3e5-e878-4b0e-9312-d6527434e2a2.jpg",
+        image: "images/udemy/UC-5bf9c3e5-e878-4b0e-9312-d6527434e2a2.jpg"
+    },
+    {
         name: "Generative AI for .NET Developers with Azure AI Service",
         instructor: "Trevoir Williams",
         imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-dfb14106-684d-449b-98e2-92e8241d24d7.jpg",
