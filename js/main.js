@@ -3,6 +3,12 @@
 
 const courses = [
     {
+        name: "Ultimate Clean Code Masterclass for 2025",
+        instructor: "Krystyna Slusarczyk",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-66cd04da-09c4-49d0-b90c-68f0e01e2f6e.jpg",
+        image: "images/udemy/UC-66cd04da-09c4-49d0-b90c-68f0e01e2f6e.jpg"
+    },
+    {
         name: "Understanding Semantic Kernel",
         instructor: "Trevoir Williams",
         imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-5bf9c3e5-e878-4b0e-9312-d6527434e2a2.jpg",
