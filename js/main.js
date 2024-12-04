@@ -3,6 +3,12 @@
 
 const courses = [
     {
+        name: "C# Mastering Course For Beginners",
+        instructor: "Kioomars Jonood, Samaneh Mazidi Sharaf Abadi",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-1c257a44-998a-4a56-ad94-ff5bf72b2276.jpg",
+        image: "images/udemy/UC-1c257a44-998a-4a56-ad94-ff5bf72b2276.jpg"
+    },
+    {
         name: "Ultimate Clean Code Masterclass for 2025",
         instructor: "Krystyna Slusarczyk",
         imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-66cd04da-09c4-49d0-b90c-68f0e01e2f6e.jpg",
