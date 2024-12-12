@@ -3,6 +3,12 @@
 
 const courses = [
     {
+        name: "C# Mastering Course For Intermediates",
+        instructor: "Kioomars Jonood, Samaneh Mazidi Sharaf Abadi",
+        imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-5ac192cd-afa2-4c34-bc2c-9013851d89b9.jpg",
+        image: "images/udemy/UC-5ac192cd-afa2-4c34-bc2c-9013851d89b9.jpg"
+    },
+    {
         name: "C# Mastering Course For Beginners",
         instructor: "Kioomars Jonood, Samaneh Mazidi Sharaf Abadi",
         imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-1c257a44-998a-4a56-ad94-ff5bf72b2276.jpg",
