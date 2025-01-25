@@ -209,6 +209,14 @@ const algebra = [
     { href: "images/algebra/10.jpg", title: "Web API", alt: "Web API" }
 ];
 
+const certificatesHackerRank = [
+    {
+        name: "C# (Basic)",
+        url: "https://www.hackerrank.com/certificates/73bbb1bb1b3a",
+        image: "images/HackerRank/73bbb1bb1b3a.png"
+    }
+];
+
 const certificatesTestDome = [
     {
         href: "https://www.testdome.com/certificates/6bb8a052b43e4792865ec9b98daf49fe",
@@ -480,8 +488,8 @@ const boltaBooks = [
 
 
 function loaderPage() {
-        $(".fh5co-loader").fadeOut("slow");
-    };
+    $(".fh5co-loader").fadeOut("slow");
+};
 
 var isMobile = {
     Android: function () {
@@ -627,6 +635,29 @@ function populateCourses() {
     });
 }
 
+function populateHackerRank() {
+    var certificateList = document.getElementById("certificateHackerRank");
+
+    certificatesHackerRank.forEach(function (certificate) {
+        var certificateLink = document.createElement("a");
+        certificateLink.setAttribute("href", certificate.url);
+        certificateLink.setAttribute("target", "_blank");
+
+        var certificateName = document.createElement("span");
+        certificateName.classList.add("hackerrank-certificate-name");
+        certificateName.textContent = certificate.name;
+
+        var space = document.createElement("span");
+        space.textContent = " | ";
+        space.style.color = "black";
+
+        certificateLink.appendChild(certificateName);
+        certificateLink.appendChild(space);
+
+        certificateList.appendChild(certificateLink);
+    });
+}
+
 function populateTestDome() {
     var certificateList = document.getElementById("certificateList");
 
@@ -642,6 +673,7 @@ function populateTestDome() {
         var space = document.createElement("span");
         space.textContent = " | ";
         space.style.color = "black";
+
         certificateLink.appendChild(certificateTestName);
         certificateLink.appendChild(space);
 
@@ -692,6 +724,29 @@ function createCarouselUdemy() {
 
     document.getElementById("carouselUdemy").appendChild(carouselContainer);
 }
+
+function createCarouselHackerRank() {
+    var carouselContainer = document.createElement("div");
+    carouselContainer.classList.add("owl-carousel", "owl-theme");
+
+    certificatesHackerRank.forEach(function (course) {
+        var link = document.createElement("a");
+        link.setAttribute("href", course.image);
+        link.setAttribute("data-lightbox", "hackerrank");
+        link.setAttribute("data-title", course.name);
+
+        var img = document.createElement("img");
+        img.setAttribute("src", course.image);
+        img.setAttribute("alt", course.name);
+
+        link.appendChild(img);
+        carouselContainer.appendChild(link);
+    });
+
+    document.getElementById("carouselHackerRank").appendChild(carouselContainer);
+}
+
+
 
 function createCarouselTestDomeBadge() {
     var carouselContainer = document.createElement("div");
@@ -881,9 +936,11 @@ parallax();
 pieChart();
 skillsWayPoint();
 populateCourses();
+populateHackerRank();
 populateTestDome();
 createCarouselAlgebra();
 createCarouselUdemy();
+createCarouselHackerRank();
 createCarouselTestDomeBadge();
 createCarouselTestDome();
 createCarouselBoltaShop();
