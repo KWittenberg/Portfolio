@@ -219,6 +219,14 @@ const certificatesHackerRank = [
 
 const certificatesTestDome = [
     {
+        href: "https://www.testdome.com/certificates/16833f2928fc46d8895b22d89d83d8d3",
+        name: "Krešimir Wittenberg",
+        testName: "C# AND .NET",
+        logo: "TestDome Certificate",
+        stampClass: "gold",
+        image: "images/testdome/16833f2928fc46d8895b22d89d83d8d3.png"
+    },
+    {
         href: "https://www.testdome.com/certificates/6bb8a052b43e4792865ec9b98daf49fe",
         name: "Krešimir Wittenberg",
         testName: "Azure and DevOps",
