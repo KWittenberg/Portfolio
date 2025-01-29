@@ -374,7 +374,7 @@ const boltaShopAdmin = [
 
 const boltaBooks = [
     {
-        href: "1996GrobljaPozeskeDoline.html",
+        href: "https://bolta.runasp.net/product/2b4f45d7-3ce7-4a81-4757-08dce2f7290b",
         imageUrl: "images/Bolta/2013Tekic.jpg",
         title: "Tekić",
         alt: "Tekić",
@@ -383,7 +383,7 @@ const boltaBooks = [
         description: "U središnjem dijelu Požeštine, kojeg još Rimljani prozvaše 'Zlatnom dolinom – Valis aurea', sjeverno zapadno od sela Jakšića, smjestilo se selo Tekić."
     },
     {
-        href: "1996GrobljaPozeskeDoline.html",
+        href: "https://bolta.runasp.net/product/a44a7912-3249-44bd-4756-08dce2f7290b",
         imageUrl: "images/Bolta/2012Smotra.jpg",
         title: "Smotra",
         alt: "Smotra",
@@ -392,7 +392,7 @@ const boltaBooks = [
         description: "Velika mi je čast i zadovoljstvo što mi je povjereno uređivanje ovog broja koji je posvećen uglavnom Požetini. Odmah po protjerivanju Turaka osim vojničkih posada doseljavaju i Nijemci i Austrijanci."
     },
     {
-        href: "1996GrobljaPozeskeDoline.html",
+        href: "https://bolta.runasp.net/product/bc1c2b09-527c-4931-4755-08dce2f7290b",
         imageUrl: "images/Bolta/2011Brestovac.jpg",
         title: "Brestovac",
         alt: "Brestovac",
@@ -401,7 +401,7 @@ const boltaBooks = [
         description: "Za prostor omeđen bilom planina Požeške Gore - Psunja i Papuka zapadno od Požege, najlogičniji mi je naziv Zapadna Vrata Požeštine. Na cestovnom ulazu i izlazu tog prostora dominira mjesto Brestovac pa otud i naslov ‘BRESTOVAC - ZAPADNA VRATA POŽEŠTINE’."
     },
     {
-        href: "1996GrobljaPozeskeDoline.html",
+        href: "https://bolta.runasp.net/product/764a77ad-5fe6-456d-4754-08dce2f7290b",
         imageUrl: "images/Bolta/2009AlmanahGimnazije.jpg",
         title: "Almanah Gimnazije",
         alt: "Almanah Gimnazije",
@@ -410,7 +410,7 @@ const boltaBooks = [
         description: "Sam grad Požega imao je te 1948. godine 8.544 stanovnika pa je i priliv od preko jedne tisuće gimnazijalaca imao itekako odraza na sveukupan život u gradu. Promet uglavnom željeznicom ili konjskim zapregama."
     },
     {
-        href: "1996GrobljaPozeskeDoline.html",
+        href: "https://bolta.runasp.net/product/df5fb394-1420-40d0-4753-08dce2f7290b",
         imageUrl: "images/Bolta/2009100GodinaDVDBuk.jpg",
         title: "100 Godina DVD Buk",
         alt: "100 Godina DVD Buk",
@@ -419,7 +419,7 @@ const boltaBooks = [
         description: "Prvo osnovano vatrogasno društvo u Požeštini koje nije imalo sjedište u općinskom središtu je DVD Buk, osnovano daleke 1909. godine za naselja: Buk, Svilna, Resnik, Mihaljevci i Tulnik."
     },
     {
-        href: "1996GrobljaPozeskeDoline.html",
+        href: "https://bolta.runasp.net/product/221e2072-0b6e-4de3-4752-08dce2f7290b",
         imageUrl: "images/Bolta/2008Vetovo.jpg",
         title: "Vetovo",
         alt: "Vetovo",
@@ -428,7 +428,7 @@ const boltaBooks = [
         description: "Stiješnjena između tri centra: Kutjeva, Kaptola i Jakšića, župa ili bolje rečeno područje župe Vetovo, već stoljećima odolijeva kao svojevrstan ‘kuglager’ u nastalom trenju, kako od silnica ovih centara, tako od pritiska sučeljavanja Papuka i Krndije te južne ravne plohe - plodne ravnice."
     },
     {
-        href: "1996GrobljaPozeskeDoline.html",
+        href: "https://bolta.runasp.net/product/9bccbd4d-da53-4794-4751-08dce2f7290b",
         imageUrl: "images/Bolta/2007OsamGeneracijaThallera.jpg",
         title: "Osam Generacija Thallera",
         alt: "Osam Generacija Thallera",
@@ -437,7 +437,7 @@ const boltaBooks = [
         description: "Monografija OSAM GENERACIJA THALLERA ne samo izuzetna po formi i sadržaju, nego i jedinstvena po obradi."
     },
     {
-        href: "1996GrobljaPozeskeDoline.html",
+        href: "https://bolta.runasp.net/product/09875291-e78d-40ab-4750-08dce2f7290b",
         imageUrl: "images/Bolta/2004PutopisneImpresije.jpg",
         title: "Putopisne Impresije",
         alt: "Putopisne Impresije",
@@ -446,7 +446,7 @@ const boltaBooks = [
         description: "Putopisne impresije Branka Živković su plod zajedničkog putovanja s Matkom Peić u Španjolsku i Pariz."
     },
     {
-        href: "1996GrobljaPozeskeDoline.html",
+        href: "https://bolta.runasp.net/product/4db9bcc9-8ab0-4c74-474f-08dce2f7290b",
         imageUrl: "images/Bolta/2004Pjesme.jpg",
         title: "Pjesme",
         alt: "Pjesme",
@@ -455,7 +455,7 @@ const boltaBooks = [
         description: "Mladi pjesnik Vladimir Hip realna je osoba koja razmišlja i osjeća bilo i ritam svijeta u kojem živi."
     },
     {
-        href: "1996GrobljaPozeskeDoline.html",
+        href: "https://bolta.runasp.net/product/e5cbd3e0-745f-4cec-474e-08dce2f7290b",
         imageUrl: "images/Bolta/2002SesvetackiKrajUSrcuPoljadije.jpg",
         title: "Sesvetački Kraj U Srcu Poljadije",
         alt: "Sesvetački Kraj U Srcu Poljadije",
@@ -464,7 +464,7 @@ const boltaBooks = [
         description: "Veliki je broj pjesnika i putopisaca opisalo ili opjevalo Požešku dolinu sve od Rimljana do današnjih dana."
     },
     {
-        href: "1996GrobljaPozeskeDoline.html",
+        href: "https://bolta.runasp.net/product/53ad259d-0b71-482d-474d-08dce2f7290b",
         imageUrl: "images/Bolta/1998Puvarija.jpg",
         title: "Puvarija",
         alt: "Puvarija",
@@ -473,7 +473,7 @@ const boltaBooks = [
         description: "Prva cjelovita obrada sjeverno-zapadnog dijela Dilj-gore i naselja na diljskim padinama, od srednjeg vijeka do današnjih dana."
     },
     {
-        href: "1996GrobljaPozeskeDoline.html",
+        href: "https://bolta.runasp.net/product/b172a974-4716-41e3-474c-08dce2f7290b",
         imageUrl: "images/Bolta/1997Rudina.jpg",
         title: "Rudina",
         alt: "Rudina",
@@ -482,7 +482,7 @@ const boltaBooks = [
         description: "Rudina je bila centar ili bolje rečeno središte centralne Slavonije u kojoj se spaja sve ono najbolje toga vremena."
     },
     {
-        href: "1996GrobljaPozeskeDoline.html",
+        href: "https://bolta.runasp.net/product/9c53475a-9e1a-45d8-474b-08dce2f7290b",
         imageUrl: "images/Bolta/1996GrobljaPozeskeDoline.jpg",
         title: "Groblja Požeške Doline",
         alt: "Groblja Požeške Doline",
@@ -754,8 +754,6 @@ function createCarouselHackerRank() {
     document.getElementById("carouselHackerRank").appendChild(carouselContainer);
 }
 
-
-
 function createCarouselTestDomeBadge() {
     var carouselContainer = document.createElement("div");
     carouselContainer.classList.add("owl-carousel", "owl-theme");
@@ -885,6 +883,7 @@ function createCarouselBolta() {
 
         const link = document.createElement("a");
         link.setAttribute("href", image.href);
+        link.setAttribute("target", "_blank");
         link.classList.add("blog-bg");
         link.style.backgroundImage = `url(${image.imageUrl})`;
 
@@ -898,6 +897,7 @@ function createCarouselBolta() {
         const h3 = document.createElement("h3");
         const h3Link = document.createElement("a");
         h3Link.setAttribute("href", image.href);
+        h3Link.setAttribute("target", "_blank");
         h3Link.textContent = image.title;
         h3.appendChild(h3Link);
 
