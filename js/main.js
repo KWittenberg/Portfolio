@@ -1,5 +1,34 @@
 ﻿'use strict';
 
+const latestProjects = [
+    {
+        href: "https://bolta.runasp.net/",
+        imageUrl: "images/",
+        title: "BoltaShop",
+        alt: "BoltaShop",
+        year: "2023",
+        author: "eCommerce",
+        description: "BoltaShop - eCommerce app"
+    },
+    {
+        href: "https://spot.runasp.net/",
+        imageUrl: "images/",
+        title: "Spot",
+        alt: "Spot",
+        year: "2025",
+        author: "digital signage",
+        description: "Spot"
+    },
+    {
+        href: "https://meetups.runasp.net/",
+        imageUrl: "images/",
+        title: "Meetups",
+        alt: "Meetups",
+        year: "2025",
+        author: "events",
+        description: "Meetups"
+    }
+];
 
 const courses = [
     {
@@ -193,6 +222,15 @@ const courses = [
         instructor: "Trevoir Williams",
         imageUrl: "https://udemy-certificate.s3.amazonaws.com/image/UC-3f0fe1d1-2969-4ef7-b896-69e49ad38cda.jpg",
         image: "images/udemy/ASP.NET Core 7 MVC - Cross-Platform Development.jpg"
+    }
+];
+
+const certificatesDometrain = [
+    {
+        name: "From Zero to Hero: REST APIs in .NET",
+        instructor: "Nick Chapsas",
+        imageUrl: "https://courses.dometrain.com/certificates/fxlsfnxmdb",
+        image: "images/dometrain/certificate-620229600.jpg"
     }
 ];
 
@@ -643,6 +681,28 @@ function populateCourses() {
     });
 }
 
+function populateDometrain() {
+    const courseDometrain = document.getElementById("certificateDometrain");
+
+    certificatesDometrain.forEach(course => {
+        const courseDiv = document.createElement("div");
+        const instructorSpan = document.createElement("span");
+        const courseLink = document.createElement("a");
+
+        instructorSpan.textContent = course.instructor;
+        courseLink.textContent = course.name;
+        courseLink.href = course.imageUrl;
+        courseLink.target = "_blank";
+
+        courseDiv.appendChild(instructorSpan);
+        courseDiv.appendChild(document.createTextNode(": "));
+        courseDiv.appendChild(courseLink);
+        courseDiv.appendChild(document.createElement("br"));
+
+        courseDometrain.appendChild(courseDiv);
+    });
+}
+
 function populateHackerRank() {
     var certificateList = document.getElementById("certificateHackerRank");
 
@@ -691,6 +751,70 @@ function populateTestDome() {
 
 
 /* Carousel */
+function createCarouselProjects() {
+    const carouselContainer = document.createElement("div");
+    carouselContainer.classList.add("owl-carousel", "owl-theme");
+
+    latestProjects.forEach(function (image) {
+        const colDiv = document.createElement("div");
+        colDiv.classList.add("col-md-12");
+
+        const fh5coDiv = document.createElement("div");
+        fh5coDiv.classList.add("fh5co-blog", "animate-box");
+
+        const link = document.createElement("a");
+        link.setAttribute("href", image.href);
+        link.setAttribute("target", "_blank");
+        link.classList.add("blog-bg");
+        link.style.backgroundImage = `url(${image.imageUrl})`;
+
+        const blogTextDiv = document.createElement("div");
+        blogTextDiv.classList.add("blog-text");
+
+        //const span = document.createElement("span");
+        //span.classList.add("posted_on");
+        //span.textContent = image.year;
+
+        const h3 = document.createElement("h3");
+        const h3Link = document.createElement("a");
+        h3Link.setAttribute("href", image.href);
+        h3Link.setAttribute("target", "_blank");
+        h3Link.textContent = image.title;
+        h3.appendChild(h3Link);
+
+        const p = document.createElement("p");
+        p.textContent = image.description;
+        p.style.fontSize = "70%";
+
+        const ul = document.createElement("ul");
+        ul.classList.add("stuff");
+        ul.style.fontSize = "70%";
+
+        const li1 = document.createElement("li");
+        li1.style.color = "darkgray";
+        li1.textContent = image.year;
+
+        const li2 = document.createElement("li");
+        li2.textContent = image.author;
+
+        ul.appendChild(li1);
+        ul.appendChild(li2);
+
+        //blogTextDiv.appendChild(span);
+        blogTextDiv.appendChild(h3);
+        blogTextDiv.appendChild(p);
+        blogTextDiv.appendChild(ul);
+
+        fh5coDiv.appendChild(link);
+        fh5coDiv.appendChild(blogTextDiv);
+
+        colDiv.appendChild(fh5coDiv);
+        carouselContainer.appendChild(colDiv);
+    });
+
+    document.getElementById("carouselProjects").appendChild(carouselContainer);
+}
+
 function createCarouselAlgebra() {
     var carouselContainer = document.createElement("div");
     carouselContainer.classList.add("owl-carousel", "owl-theme");
@@ -731,6 +855,27 @@ function createCarouselUdemy() {
     });
 
     document.getElementById("carouselUdemy").appendChild(carouselContainer);
+}
+
+function createCarouselDometrain() {
+    var carouselContainer = document.createElement("div");
+    carouselContainer.classList.add("owl-carousel", "owl-theme");
+
+    certificatesDometrain.forEach(function (course) {
+        var link = document.createElement("a");
+        link.setAttribute("href", course.image);
+        link.setAttribute("data-lightbox", "dometrain");
+        link.setAttribute("data-title", course.name);
+
+        var img = document.createElement("img");
+        img.setAttribute("src", course.image);
+        img.setAttribute("alt", course.name);
+
+        link.appendChild(img);
+        carouselContainer.appendChild(link);
+    });
+
+    document.getElementById("carouselDometrain").appendChild(carouselContainer);
 }
 
 function createCarouselHackerRank() {
@@ -944,10 +1089,13 @@ parallax();
 pieChart();
 skillsWayPoint();
 populateCourses();
+populateDometrain();
 populateHackerRank();
 populateTestDome();
+/*createCarouselProjects();*/
 createCarouselAlgebra();
 createCarouselUdemy();
+createCarouselDometrain();
 createCarouselHackerRank();
 createCarouselTestDomeBadge();
 createCarouselTestDome();
