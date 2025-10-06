@@ -234,6 +234,15 @@ const certificatesDometrain = [
     }
 ];
 
+const certificatesTimCorey = [
+    {
+        name: "Hands On Refactoring",
+        instructor: "TimCorey",
+        imageUrl: "https://kwittenberg.github.io/Portfolio/images/TimCorey/cert_gcdmddcl.png",
+        image: "images/TimCorey/cert_gcdmddcl.png"
+    }
+];
+
 const algebra = [
     { href: "images/algebra/01.jpg", title: "Uvod u moderni razvoj Web aplikacija", alt: "Uvod u moderni razvoj Web aplikacija" },
     { href: "images/algebra/02.jpg", title: "C# i .NET Framework_osnovno koristenje", alt: "C# i .NET Framework_osnovno koristenje" },
@@ -703,6 +712,28 @@ function populateDometrain() {
     });
 }
 
+function populateTimCorey() {
+    const courseTimCorey = document.getElementById("certificateTimCorey");
+
+    certificatesTimCorey.forEach(course => {
+        const courseDiv = document.createElement("div");
+        const instructorSpan = document.createElement("span");
+        const courseLink = document.createElement("a");
+
+        instructorSpan.textContent = course.instructor;
+        courseLink.textContent = course.name;
+        courseLink.href = course.imageUrl;
+        courseLink.target = "_blank";
+
+        courseDiv.appendChild(instructorSpan);
+        courseDiv.appendChild(document.createTextNode(": "));
+        courseDiv.appendChild(courseLink);
+        courseDiv.appendChild(document.createElement("br"));
+
+        courseTimCorey.appendChild(courseDiv);
+    });
+}
+
 function populateHackerRank() {
     var certificateList = document.getElementById("certificateHackerRank");
 
@@ -876,6 +907,27 @@ function createCarouselDometrain() {
     });
 
     document.getElementById("carouselDometrain").appendChild(carouselContainer);
+}
+
+function createCarouselTimCorey() {
+    var carouselContainer = document.createElement("div");
+    carouselContainer.classList.add("owl-carousel", "owl-theme");
+
+    certificatesTimCorey.forEach(function (course) {
+        var link = document.createElement("a");
+        link.setAttribute("href", course.image);
+        link.setAttribute("data-lightbox", "timcorey");
+        link.setAttribute("data-title", course.name);
+
+        var img = document.createElement("img");
+        img.setAttribute("src", course.image);
+        img.setAttribute("alt", course.name);
+
+        link.appendChild(img);
+        carouselContainer.appendChild(link);
+    });
+
+    document.getElementById("carouselTimCorey").appendChild(carouselContainer);
 }
 
 function createCarouselHackerRank() {
@@ -1090,12 +1142,14 @@ pieChart();
 skillsWayPoint();
 populateCourses();
 populateDometrain();
+populateTimCorey();
 populateHackerRank();
 populateTestDome();
 /*createCarouselProjects();*/
 createCarouselAlgebra();
 createCarouselUdemy();
 createCarouselDometrain();
+createCarouselTimCorey();
 createCarouselHackerRank();
 createCarouselTestDomeBadge();
 createCarouselTestDome();
