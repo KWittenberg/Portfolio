@@ -230,7 +230,13 @@ const certificatesDometrain = [
         name: "From Zero to Hero: REST APIs in .NET",
         instructor: "Nick Chapsas",
         imageUrl: "https://courses.dometrain.com/certificates/fxlsfnxmdb",
-        image: "images/dometrain/certificate-620229600.jpg"
+        image: "images/dometrain/fxlsfnxmdb.jpg"
+    },
+    {
+        name: "Getting Started: C#",
+        instructor: "Nick Cosentino",
+        imageUrl: "https://courses.dometrain.com/certificates/sy9rbh15zy",
+        image: "images/dometrain/sy9rbh15zy.jpg"
     }
 ];
 
