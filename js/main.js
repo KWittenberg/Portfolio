@@ -233,13 +233,13 @@ const certificatesDometrain = [
         image: "images/dometrain/fxlsfnxmdb.jpg"
     },
     {
-        name: "Getting Started: C#",
+        name: "Deep Dive: C#",
         instructor: "Nick Cosentino",
         imageUrl: "https://courses.dometrain.com/certificates/3okmemxa2o",
         image: "images/dometrain/3okmemxa2o.jpg"
     },
     {
-        name: "Deep Dive: C#",
+        name: "Getting Started: C#",
         instructor: "Nick Cosentino",
         imageUrl: "https://courses.dometrain.com/certificates/sy9rbh15zy",
         image: "images/dometrain/sy9rbh15zy.jpg"
