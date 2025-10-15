@@ -257,15 +257,16 @@ const certificatesTimCorey = [
 
 const algebra = [
     { href: "images/algebra/01.jpg", title: "Uvod u moderni razvoj Web aplikacija", alt: "Uvod u moderni razvoj Web aplikacija" },
-    { href: "images/algebra/02.jpg", title: "C# i .NET Framework_osnovno koristenje", alt: "C# i .NET Framework_osnovno koristenje" },
+    { href: "images/algebra/02.jpg", title: "C# i .NET Framework - osnovno koristenje", alt: "C# i .NET Framework - osnovno koristenje" },
     { href: "images/algebra/03.jpg", title: "Osnove baza podataka", alt: "Osnove baza podataka" },
-    { href: "images/algebra/04.jpg", title: "C# i .NET Framework_napredno koristenje", alt: "C# i .NET Framework_napredno koristenje" },
+    { href: "images/algebra/04.jpg", title: "C# i .NET Framework - napredno koristenje", alt: "C# i .NET Framework - napredno koristenje" },
     { href: "images/algebra/05.jpg", title: "LINQ", alt: "LINQ" },
     { href: "images/algebra/06.jpg", title: "ASP.NET Core MVC i Visual Studio", alt: "ASP.NET Core MVC i Visual Studio" },
     { href: "images/algebra/07.jpg", title: "Unit Testing", alt: "Unit Testing" },
-    { href: "images/algebra/08.jpg", title: "ASP.NET Core MVC u praksi_Entity Framework", alt: "ASP.NET Core MVC u praksi_Entity Framework" },
-    { href: "images/algebra/09.jpg", title: "ASP.NET Core MVC u praksi_Izrada web trgovine", alt: "ASP.NET Core MVC u praksi_Izrada web trgovine" },
-    { href: "images/algebra/10.jpg", title: "Web API", alt: "Web API" }
+    { href: "images/algebra/08.jpg", title: "ASP.NET Core MVC u praksi - Postavljanje projekta", alt: "ASP.NET Core MVC u praksi - Postavljanje projekta" },
+    { href: "images/algebra/09.jpg", title: "ASP.NET Core MVC u praksi - Entity Framework", alt: "ASP.NET Core MVC u praksi - Entity Framework" },
+    { href: "images/algebra/10.jpg", title: "ASP.NET Core MVC u praksi - Izrada web trgovine", alt: "ASP.NET Core MVC u praksi - Izrada web trgovine" },
+    { href: "images/algebra/11.jpg", title: "Web API", alt: "Web API" }
 ];
 
 const certificatesHackerRank = [
